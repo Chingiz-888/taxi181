@@ -14,9 +14,10 @@
               $(navbar).removeClass("collapse");
               $(navbar).attr("aria-expanded", "true");
               $("#whole-navbar-wrapper").css({"height" : "534px"});
+              $("#myNavbar>ul").css({"margin-top" : "60px", "margin-left" : "10px", "font-size" : "21px" });
               $("#myNavbar>ul>li").css({"display" : "block", "width" : "100%" });
-              $(".phone.right").css({"width":"150px"});
-              $(".phone.right").parent().parent().css({"width":"170px"});
+              //$(".phone.right").css({"width":"150px"});
+              //$(".phone.right").parent().parent().css({"width":"170px"});
               $(".navbar-nav").css({"margin-top": "25px"});
 
                //$("main").css("paddingTop","385px");
@@ -24,7 +25,8 @@
               $(navbar).addClass("collapse"); 
               $(navbar).attr("aria-expanded", "false");
               $("#whole-navbar-wrapper").css({"height" : "73px"});
-              $("#myNavbar>ul>li").css({"display" : "inline"});
+              $("#myNavbar>ul").css({"margin-top" : "10px", "margin-left" : "10px", "font-size" : "21px" });
+              $("#myNavbar>ul>li").css({"display" : "inline", "width" : "90px"});
               $(".navbar-nav").css({"margin-top": "0px"});
 
               //$("main").css("paddingTop","112px"); 
@@ -36,5 +38,4 @@
       console.log($(navbar).attr("aria-expanded")  );      
 
 }//======================================================================
-
 

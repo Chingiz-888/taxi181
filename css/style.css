@@ -1401,10 +1401,11 @@ header ul li a:hover, footer ul li a:hover {
      font-size: 16px !important;
   }
 
-  .navbar-nav {
+  /*.navbar-nav*/ 
+  #custom-navbar-ul{
     margin: 0;
     margin-top: 0px;    
-    margin-left: 60px !important;
+    margin-left: 60px;
    }
 }/* ==== */
 
@@ -1566,11 +1567,6 @@ header ul li a:hover, footer ul li a:hover {
     box-shadow: inset none; /*0 1px 0 rgba(255, 255, 255, .1);*/
 }
 
-#myNavbar ul {    
-  margin-top: 60px !important;
-  margin-left: 10px !important;
-  font-size: 21px;
-}
 
 
 
