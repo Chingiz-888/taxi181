@@ -527,14 +527,18 @@ header ul li a:hover, footer ul li a:hover {
   background-image: url(../pics/license_image1.jpg);
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: cover;
   padding-left: 0px;
   padding-right: 0px
 }
 
-#license_second_row_announcement,
-#license_second_row_announcement2 {
+#license_second_row_announcement {
   padding-left: 10px;
   margin-top: 83px;
+}
+
+#license_second_row_announcement2 {
+    margin-top: 83px;
 }
 
 #license_second_row_announcement span
@@ -596,7 +600,7 @@ header ul li a:hover, footer ul li a:hover {
 
 #license_third_row_announcement span{
   display: block;
-  font-size:   30px;
+  font-size:   35px;
   font-weight: 700;
   margin-top: 99px;
 }
