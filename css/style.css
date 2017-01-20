@@ -1164,7 +1164,7 @@ header ul li a:hover, footer ul li a:hover {
 #aboutpage_row_1{
   color: #2e2e2e;
   background: #fff;
-  height: 522px;
+  min-height: 522px;
   z-index: 1;
   text-align: center;
 }
@@ -1178,7 +1178,6 @@ header ul li a:hover, footer ul li a:hover {
   -webkit-background-size: cover;
   background-size: cover;
   height: 545px;
-  margin-bottom: 33px;
   color: #2e2e2e;
 }
 
@@ -1232,7 +1231,6 @@ header ul li a:hover, footer ul li a:hover {
 
 
 
-
 /*===== СТРАНИЦА  КОНТАКТЫ ====================*/
 #contacts_row_1{
   color: #2e2e2e;
@@ -1241,7 +1239,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 545px;
+  min-height: 545px;
   z-index: 1;
   text-align: center;
 }
@@ -1303,6 +1301,7 @@ header ul li a:hover, footer ul li a:hover {
 
 .contacts-wrapper {
   text-align: center;
+  padding-bottom: 90px;
 }
 
 .contacts-block {
@@ -1310,6 +1309,7 @@ header ul li a:hover, footer ul li a:hover {
   max-width: 450px;
   display: inline-block;
   margin-left: 4px;
+  border-radius: 5px;
 }
 
 .contacts-block:last-child{
@@ -1542,11 +1542,15 @@ header ul li a:hover, footer ul li a:hover {
 
 
   .div-table-contacts {
-    width: 100%;
+    min-width: 270px;
+    width: auto;
   }
 
   .contacts-block {
     margin-left: 0;
+  }
+  .div-table-contacts {
+    border-bottom: 9px solid #eee;
   }
 
 }/* ==== */
