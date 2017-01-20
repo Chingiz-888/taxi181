@@ -1308,8 +1308,9 @@ header ul li a:hover, footer ul li a:hover {
   background-color: white;
   max-width: 450px;
   display: inline-block;
-  margin-left: 4px;
+  margin-left: 10px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .contacts-block:last-child{
@@ -1542,15 +1543,28 @@ header ul li a:hover, footer ul li a:hover {
 
 
   .div-table-contacts {
-    min-width: 270px;
-    width: auto;
+      width: 270px;
+      /*border: 1px solid red;*/
+      border-spacing: 5px;
+      background-color: white;
+      margin-left:  0;
+      border-radius: 5;
+      margin-bottom: 0;
   }
 
   .contacts-block {
     margin-left: 0;
+    margin-bottom: 0;
   }
   .div-table-contacts {
     border-bottom: 9px solid #eee;
+  }
+  .contacts-block:last-child .div-table-contacts {
+    border-bottom: none;
+  }
+
+  .contacts-wrapper {
+    padding-left: 10px;
   }
 
 }/* ==== */
