@@ -13,8 +13,8 @@
             if ( $(navbar).attr("aria-expanded") === "false") { 
               $(navbar).removeClass("collapse");
               $(navbar).attr("aria-expanded", "true");
-              $("#whole-navbar-wrapper").css({"height" : "500px"});
-              $("#myNavbar>ul>li").css({"display" : "block", "width" : "50%" });
+              $("#whole-navbar-wrapper").css({"height" : "534px"});
+              $("#myNavbar>ul>li").css({"display" : "block", "width" : "100%" });
               $(".phone.right").css({"width":"150px"});
               $(".phone.right").parent().parent().css({"width":"170px"});
               $(".navbar-nav").css({"margin-top": "25px"});

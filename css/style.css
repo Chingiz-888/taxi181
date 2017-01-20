@@ -1557,6 +1557,20 @@ header ul li a:hover, footer ul li a:hover {
 
 
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-collapse {
+    -webkit-box-shadow: none; /*inset 0 1px 0 rgba(255, 255, 255, .1);*/
+    box-shadow: inset none; /*0 1px 0 rgba(255, 255, 255, .1);*/
+}
+
+#myNavbar ul {    
+  margin-top: 60px !important;
+  margin-left: 10px !important;
+  font-size: 21px;
+}
 
 
 
