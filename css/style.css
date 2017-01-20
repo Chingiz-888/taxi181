@@ -1,0 +1,1562 @@
+/* font-family: "OpenSansRegular"; */
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansBold"; */
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("../fonts/OpenSansSemiBold.eot");
+  src: url("../fonts/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSansRegular';
+}
+
+h2 {
+  font-size: 58px;
+  font-weight: normal;
+  font-family: 'OpenSansBold';
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: normal;
+  font-family: 'OpenSansBold';
+}
+
+.center {
+  text-align: center;
+}
+
+.center-div {
+  clear: both;
+}
+
+
+/* метод Ильи Стрельцына */
+.parent_clearfix  {
+        
+        /* display: table */
+        -height: 1%; /*IE6*/
+        zoom: 1; /*IE6-7*/
+        display: table;
+}
+/* Очень важное дополнение! */
+.parent_clearfix:after {
+    /*content: '1 1';*/  /*Op15+*/
+   content: '1 1 1 1 1 1 1 1 1 1 1'; /*Op12+*/
+   font: .1px/0 a;
+   display: block;
+   word-spacing: 99in;
+   overflow: hidden; /*IE8-*/
+}
+
+
+
+.right {
+  float: right;
+}
+
+.sm-center {
+     overflow:hidden; 
+    text-align: center;
+
+}
+
+.sm-center img,
+.sm-center span {
+
+  display: inline-block;
+}
+
+.phone {
+  font-family: OpenSansBold;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.half-sm-left {
+  float: left;
+  width: 50%;
+}
+
+.block-left{
+  float: left;
+}
+
+header {
+  /*float: left;*/
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 74px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'OpenSansLight';
+  z-index: 10;
+}
+header ul li {
+  margin-right: 60px;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 34px 0 30px 0;
+  position: relative;
+}
+.bottom-menu ul li {
+  margin-right: 40px;
+  display: inline;
+}
+
+.bottom-menu ul {
+  list-style: none;
+}
+
+
+.socials {
+  float: left;
+  width: 100%;
+  margin-top: 41px;
+}
+.socials a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.socials img {
+  width: 37px;
+  height: 37px;
+}
+
+
+.socials a:last-child {
+  margin-right: 0;
+}
+ .copyright {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 20px 0 0 0;
+}
+
+header ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+header ul li, footer ul li {
+  display: inline;
+}
+header ul li a, footer ul li a {
+  font-size: 16px;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+header ul li a:hover, footer ul li a:hover {
+  color: inherit;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1426px;
+}
+.wrapper2 {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1396px;
+}
+.wrapper.small {
+  max-width: 1142px;
+}
+
+.carousel {
+  float: left;
+  width: 100%;
+  overflow: hidden; 
+}
+.carousel .item > img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.carousel .item > .wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  font-family: 'OpenSansBold';
+  color: #fff;
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  z-index: 3;
+}
+.carousel .slick-dots {
+  position: absolute;
+  bottom: 20%;
+  left: 14%;
+  z-index: 999;
+}
+.carousel .slick-dots li {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #6d6d6c;
+  margin-left: 10px;
+}
+.carousel .slick-dots li.slick-active {
+  background-color: #fff;
+}
+.carousel .slick-dots li button {
+  display: none;
+}
+
+.carousel-main-wrapper,
+.carousel-secondary-wrapper {
+  float: left;
+  width: 100%;
+}
+.carousel-main-wrapper .slick-track,
+.carousel-main-wrapper .slick-slide,
+.carousel-secondary-wrapper .slick-track,
+.carousel-secondary-wrapper .slick-slide {
+  float: left;
+  position: relative;
+  height: 484px !important;
+  overflow: hidden;
+  border: 0 !important;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.carousel-main-wrapper {
+  height: 484px;
+}
+.carousel-main-wrapper .slick-track,
+.carousel-main-wrapper .slick-slide {
+  height: 575px !important;
+}
+.carousel-main-wrapper .carousel .wrapper {
+  font-size: 50px;
+}
+.carousel-main-wrapper .item:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.carousel-secondary-wrapper {
+  height: 374px;
+}
+.carousel-secondary-wrapper .slick-track,
+.carousel-secondary-wrapper .slick-slide {
+  height: 374px !important;
+}
+.carousel-secondary-wrapper .carousel .wrapper {
+  font-size: 36px;
+  text-align: center;
+}
+.carousel-secondary-wrapper .item:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+.carousel-secondary-wrapper .item > .wrapper {
+  -ms-transform: translateY(135%);
+  -webkit-transform: translateY(135%);
+  transform: translateY(135%);
+}
+.carousel-secondary-wrapper .slick-dots {
+  right: 50%;
+  bottom: 18%;
+  -ms-transform: translateX(30%);
+  -webkit-transform: translateX(30%);
+  transform: translateX(30%);
+}
+.carousel-secondary-wrapper .slick-dots li {
+  background-color: #91989c;
+}
+.carousel-secondary-wrapper .slick-dots li.slick-active {
+  background-color: #e6c003;
+}
+
+#uslugi {
+  float: left;
+  width: 100%;
+  padding-top: 60px;
+}
+#uslugi h2 {
+  text-align: center;
+  color: #3f3f3f;
+  padding: 30px;
+}
+#uslugi .item {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 228px;
+  margin-bottom: 95px;
+  color: #fff;
+  font-family: 'OpenSansBold';
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  padding: 112px 20px 20px 20px;
+  -webkit-transition: color(0.2s);
+  transition: color(0.2s);
+}
+
+
+#uslugi .icon {
+    width: 81px;
+    height: 81px;
+    margin-top: -84px;
+    display: inline-block;
+}
+
+#uslugi .icon path{
+      fill:#F0C700;
+}
+
+
+#uslugi .icon.active path{
+    fill:#000;
+}
+
+.st0 {
+  fill:red;
+}
+
+
+
+
+#uslugi .item:before {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282828;
+  z-index: -2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#uslugi .item:after {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282828;
+  z-index: -1;
+  transition: 0.3s;
+  opacity: 0;
+}
+#uslugi .item:hover {
+  color: #3f3f3f;
+}
+#uslugi .item:hover:after {
+  background-color: #f2ca00;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#tariffs {
+  float: left;
+  width: 100%;
+  background-color: #282828;
+  margin-bottom: 90px;
+}
+#tariffs h2 {
+  text-align: center;
+  color: #f2ca00;
+  padding-bottom: 18px;
+}
+#tariffs h3 {
+  color: #3f3f3f;
+  text-align: center;
+}
+#tariffs .item {
+  position: relative;
+  height: 350px;
+  background-color: #fff;
+  padding: 0;
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+}
+#tariffs .item:nth-child(odd) {
+  background-color: #f2ca00;
+}
+
+
+#tariffs .item p {
+  position: absolute;
+  bottom: 46px;
+  left: 5%;
+  width: 90%;
+  height: 15%;
+  text-align: center;
+  font-size: 14px;
+  color: #3f3f3f;
+  font-family: 'OpenSansSemiBold';
+}
+
+
+
+
+/* ====================== СТРАНИЦА "ЛИЦЕНЗИЯ ТАКСИ" ======================== */
+#license_first_row{
+   width: 100%; 
+   background-image: url(../pics/license_slider.jpg);
+   background-repeat: no-repeat;
+   background-position: top center;
+   z-index: 1;
+}
+
+#license_announce{
+  padding-left: 10px;
+}
+
+#license_announce span{
+  display: block;
+  font-weight: 400;
+  text-shadow: 0px 4px 2px rgba(150, 150, 150, 1);
+}
+#license_announce span:first-child  {
+  font-size:   30px;
+  text-transform: uppercase;
+  margin-top: 70px;
+  text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+
+}
+#license_announce span:nth-child(2)  {
+  font-size: 53px;
+  font-family: OpenSansBold;
+  color: #f1c80c;
+  text-transform: uppercase;
+}
+#license_announce span:nth-child(3)  {
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+
+#license_text{
+  margin-top: 153px;
+  background-color: #000;
+  opacity: 0.6;
+  color: white;
+  padding: 32px 20px 20px 20px;
+  text-align: center;
+  line-height: 36px;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+/* ------- Row # 2 ----------- */
+
+#license_second_row{
+  background-color: #fff;
+  background-image: url(../pics/license_image1.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+#license_second_row_announcement,
+#license_second_row_announcement2 {
+  padding-left: 10px;
+  margin-top: 83px;
+}
+
+#license_second_row_announcement span
+{
+  display: block;
+  font-weight: 400;
+}
+
+#license_second_row_announcement span:nth-child(1) {
+  font-size:   35px;
+  text-transform: uppercase;
+}
+
+#license_second_row_announcement span:nth-child(2) {
+  font-size:  25px;
+  margin-top: 39px;
+  font-family: "Open Sans";
+}
+
+#license_second_row_announcement p{
+  display: inline;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+#license_second_row_announcement span:nth-child(3) {
+  font-size: 25px;
+  font-family: "Open Sans";
+  margin-top: 15px;
+  margin-top: 73px;
+}
+
+#license_second_row_announcement2 {
+  background-color: #000;
+  color: white;
+  opacity: 0.6;
+  padding: 20px;
+}
+
+#license_second_row_announcement2 p {
+  font-size: 25px;
+  display: inline;
+}
+
+
+
+
+/* ---------------- Third row ------------------- */
+
+#license_third_row{
+  background-color: #fff;
+}
+
+#license_third_row_announcement,
+#license_third_row_block {
+  padding-top: 75px; 
+  padding-bottom: 68px;
+}
+
+#license_third_row_announcement span{
+  display: block;
+  font-size:   30px;
+  font-weight: 700;
+  margin-top: 99px;
+}
+
+.license_line_wrapper{
+  display: inline-block;
+  width: 357px;
+  height: 75px;
+}
+
+.license_line:first-child{
+  margin-top: 0px;
+}
+
+.license_line{
+  /*border: red solid 1px;*/
+  width: 357px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+.license_line_inner1 {
+  background-color: #edd507;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+}
+.license_line_inner1 span{
+  position: absolute;
+  left: 17px;
+  top: 3px;
+  font-size: 29px;
+}
+
+.license_line_inner2{
+  width: 300px;
+  height: 63px;
+  display: inline-block;
+  margin-left: 7px;
+  /*border: red solid 1px;*/
+  font-size: 16px;
+}
+
+.license_line_inner2 p{
+  display: inline;
+}
+.license_line_inner2 p:nth-child(1){
+  font-weight: 400;
+}
+.license_line_inner2 p:nth-child(2){
+  font-weight: 700;
+}
+
+/* ----------- Row # 4 ------------- */
+#license_fourth_row {
+   background-image: url(../pics/license_image2.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+ 
+#license_fourth_row_block{
+  padding-top: 75px;
+}
+
+#license_fourth_row_block span:nth-child(1){
+ font-size: 2.2em;
+  font-family: OpenSansBold;
+  font-weight: 700;
+  color: white;
+}
+
+#license_fourth_row_block span:nth-child(2){
+ font-size: 2.5em;
+  font-family: OpenSansBold;
+  font-weight: 400;
+  color: white;
+}
+
+#license_fourth_row_block2 {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: white;
+   text-align: center;
+   margin-bottom: 45px;
+   margin-top: 19px;
+}
+
+#license_fourth_row_block2  p:nth-child(1){
+  font-size: 20px;
+  padding-top: 30px;
+}
+#license_fourth_row_block2  p:nth-child(2){
+  font-size: 44px;
+  padding-top: 17px;
+  color: #f5e10a;
+}
+
+
+
+#license_button {text-decoration:none; text-align:center; 
+ padding:14px 53px; 
+ margin-top: 30px;
+ margin-bottom: 32px;
+ border:solid 1px #e7d31d; 
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px; 
+ border-radius: 5px; 
+ font:20px Tahoma, Geneva, sans-serif; 
+ font-weight:bold; 
+ color:#2e2e2e; 
+ background-color:#ffef42; 
+ background-image: -moz-linear-gradient(top, #ffef42 0%, #e7d31d 100%); 
+ background-image: -webkit-linear-gradient(top, #ffef42 0%, #e7d31d 100%); 
+ background-image: -o-linear-gradient(top, #ffef42 0%, #e7d31d 100%); 
+ background-image: -ms-linear-gradient(top, #ffef42 0% ,#e7d31d 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7d31d', endColorstr='#e7d31d',GradientType=0 ); 
+ background-image: linear-gradient(top, #ffef42 0% ,#e7d31d 100%);   
+ -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
+ -moz-box-shadow: 0px 0px 2px #eddc26,  inset 0px 0px 1px #eddc26;  
+ box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;  
+  
+ text-shadow: -2px -1px 6px #bababa; 
+ filter: dropshadow(color=#bababa, offx=-2, offy=-1);  -webkit-transition: background 0s ease-out;
+ -moz-transition:  background 0s ease-out;
+ -o-transition:  background 0s ease-out;
+ transition:  background 0s ease-out;}
+
+ #license_button:hover{
+ padding:14px 53px; 
+ border:solid 1px #005072; 
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px; 
+ border-radius: 5px; 
+ font:20px Tahoma, Geneva, sans-serif; 
+ font-weight:bold; 
+ color:#e5ffff; 
+ background:#eddc26; 
+ -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
+ -moz-box-shadow: 0px 0px 2px #eddc26,  inset 0px 0px 1px #eddc26;  
+ box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;  
+  
+ text-shadow: 3px -1px 6px #bababa; 
+ filter: dropshadow(color=#bababa, offx=3, offy=-1);}
+
+ #license_button:active{
+ padding:14px 53px; 
+ border:solid 1px #005072; 
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px; 
+ border-radius: 5px; 
+ font:20px Tahoma, Geneva, sans-serif; 
+ font-weight:bold; 
+ color:#e5ffff; 
+ background-color: #d8c400;
+ -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
+ -moz-box-shadow: 0px 0px 2px #eddc26,  inset 0px 0px 1px #eddc26;  
+ box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;  
+  
+ text-shadow: 3px -1px 6px #bababa; 
+ filter: dropshadow(color=#bababa, offx=3, offy=-1);}
+
+
+
+
+
+
+
+
+/* ================ СТРАНИЦА ОТЗЫВОВ ======================= */
+#feedback_block {
+  background-color: red;
+  width: 100%;
+  background-image: url(../pics/license_slider.jpg);
+  background-position: top  center;
+  background-repeat: no-repeat;
+}
+
+
+
+/*========= ГЛАВНАЯ СТРАНИЦА ==========================*/
+.class_variants  {
+  text-align: center;
+}
+
+.class_variants img {
+  display: inline-block;
+}
+
+#econom_class {
+  width: 151px;
+  height: 157px;
+}
+#comfort_class {
+  width: 151px;
+  height: 157px;
+}
+#business_class {
+  width: 151px;
+  height: 157px;
+}
+
+
+
+/*======= ВОДИТЕЛЬ ТАКСИ НА СОБСТВЕННОМ АВТО ==============================*/
+#yourowncar_row_1{
+  color: white;
+  background-image: url(../pics/taxidriver_on_his_own_car.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 425px;
+  z-index: 1;
+  text-align: center;
+}
+
+#yourowncar_row_2{
+  margin-top: 56px;
+  margin-bottom: 33px;
+  color: #2e2e2e;
+}
+
+
+#yourowncar_row_2,
+#yourowncar_row_3,
+#yourowncar_row_4{
+  margin-bottom: 50px;
+}
+
+#yourowncar_row_1_announce{
+  margin-top: 157px;
+}
+
+#yourowncar_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#yourowncar_row_2_text p,
+#yourowncar_row_3_text p,
+#yourowncar_row_4_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#yourowncar_row_2_text p>span,
+#yourowncar_row_3_text p>span,
+#yourowncar_row_4_text p>span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#yourowncar_row_2 .div-table-col,
+#yourowncar_row_3 .div-table-col,
+#yourowncar_row_4 .div-table-col {
+    margin-bottom: 9px;
+}
+
+#yourowncar_row_2 .table-text,
+#yourowncar_row_3 .table-text,
+#yourowncar_row_4 .table-text {
+    font-size: 18px;
+}
+
+#yourowncar_row_5_text {
+  margin-bottom:  42px; 
+}
+
+
+
+
+
+/*======= УСЛУГА ТРЕЗВЫЙ ВОДИТЕЛЬ ==============================*/
+#abstinent_row_1{
+  color: white;
+  background-image: url(../pics/abstinent_driver.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 425px;
+  z-index: 1;
+  text-align: center;
+}
+
+#abstinent_row_2{
+  margin-top: 56px;
+  margin-bottom: 33px;
+  color: #2e2e2e;
+}
+
+#abstinent_row_3{
+  margin-bottom: 93px;
+}
+
+#abstinent_row_4,
+#abstinent_row_5{
+  margin-bottom: 50px;
+}
+
+#abstinent_row_1_announce{
+  margin-top: 157px;
+}
+
+#abstinent_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#abstinent_row_2_text p,
+#abstinent_row_5_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#abstinent_row_2_text p>span,
+#abstinent_row_4_text p>span,
+#abstinent_row_5_text p>span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#abstinent_row_3 .div-table-col,
+#abstinent_row_4 .div-table-col {
+    margin-bottom: 9px;
+}
+
+#abstinent_row_3 .table-text,
+#abstinent_row_4 .table-text {
+    font-size: 18px;
+}
+
+#abstinent_row_4_text {
+  margin-bottom:  42px; 
+}
+
+
+/*========  КОРПОРАТИВНОЕ ТАКСИ ===============================*/
+#corporatetaxi_row_1{
+  color: white;
+  background-image: url(../pics/corporate_taxi.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 425px;
+  z-index: 1;
+  text-align: center;
+}
+
+#corporatetaxi_row_2{
+  margin-top: 56px;
+  margin-bottom: 33px;
+  color: #2e2e2e;
+}
+
+#corporatetaxi_row_3{
+  margin-bottom: 93px;
+}
+
+#corporatetaxi_row_4,
+#corporatetaxi_row_5{
+  margin-bottom: 50px;
+}
+
+#corporatetaxi_row_1_announce{
+  margin-top: 157px;
+}
+
+#corporatetaxi_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#corporatetaxi_row_2_text p,
+#corporatetaxi_row_5_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#corporatetaxi_row_2_text p>span,
+#corporatetaxi_row_4_text p>span,
+#corporatetaxi_row_5_text p>span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#corporatetaxi_row_3 .div-table-col,
+#corporatetaxi_row_4 .div-table-col {
+    margin-bottom: 9px;
+}
+
+#corporatetaxi_row_3 .table-text,
+#corporatetaxi_row_4 .table-text {
+    font-size: 18px;
+}
+
+#corporatetaxi_row_4_text {
+  margin-bottom:  42px; 
+}
+
+
+
+
+/*========   СТРАНИЦА COURIER - ваш персональный курьер =======*/
+#courier_row_1{
+  color: white;
+  background-image: url(../pics/courier.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  height: 400px;
+  z-index: 1;
+  text-align: center;
+}
+
+#courier_row_2{
+  margin-top: 56px;
+  margin-bottom: 17px;
+  color: #2e2e2e;
+}
+
+#courier_row_3{
+  margin-top: 56px;
+  margin-bottom: 91px;
+  color: #2e2e2e;
+}
+
+#courier_row_4{
+  margin-top: 56px;
+  margin-bottom: 91px;
+  color: #2e2e2e;
+}
+#courier_row_1_announce {
+  margin-top: 157px;
+}
+
+#courier_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#courier_row_2_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#courier_row_2 span.first-child{
+  font-size: 34px;
+  display: inline-block;  
+  margin-bottom: 74px;
+}
+
+#courier_row_2_text p>span{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.wide {
+  width: 100%;
+  border: 1px red dashed;
+}
+
+.line_circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffd800;
+  margin-top: 5px;
+}
+
+.div-table{
+  display:table;         
+  width:100%;         
+  /*background-color:#eee;*/         
+  /*border:1px solid  #666666;*/         
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+}
+.div-table-row{
+  display:table-row;
+  width:auto;
+  clear:both;
+}
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: calc(100% - 42px);
+  width: -moz-calc(100% - 42px);
+  width: -webkit-calc(100% - 42px);         
+  /*background-color:#ccc; */ 
+  margin-bottom: 27px;
+}
+.div-table-col-small{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:40px;         
+  /*background-color:#ccc;  */
+}
+
+.table-text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: left;
+}
+
+
+
+
+/*========   СТРАНИЦА CARGO - грузовые перевозки ==============*/
+#cargo_first_row{
+  color: white;
+  background-image: url(../pics/cargo.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 425px;
+  z-index: 1;
+  text-align: center;
+}
+
+#cargo_first_row_announce{
+  margin-top: 157px;
+}
+
+#cargo_second_row{
+  margin-top: 56px;
+  margin-bottom: 91px;
+  color: #2e2e2e;
+}
+
+#cargo_first_row_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#cargo_second_row_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#cargo_second_row_text p>span{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+
+/*======= СТРАНИЦА - О НАС ==============================*/
+#aboutpage_row_1{
+  color: #2e2e2e;
+  background: #fff;
+  height: 522px;
+  z-index: 1;
+  text-align: center;
+}
+
+#aboutpage_row_2{
+  margin-top: 56px;
+    color: #2e2e2e;
+  background-image: url(../pics/about-big.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 545px;
+  margin-bottom: 33px;
+  color: #2e2e2e;
+}
+
+#aboutpage_row_3{
+  margin-bottom: 93px;
+}
+
+#aboutpage_row_4,
+#aboutpage_row_5{
+  margin-bottom: 50px;
+}
+
+#aboutpage_row_1_announce{
+  margin-top: 68px;
+}
+
+#aboutpage_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#aboutpage_row_2_text p,
+#aboutpage_row_5_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#aboutpage_row_2_text p>span,
+#aboutpage_row_4_text p>span,
+#aboutpage_row_5_text p>span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#aboutpage_row_3 .div-table-col,
+#aboutpage_row_4 .div-table-col {
+    margin-bottom: 9px;
+}
+
+#aboutpage_row_3 .table-text,
+#aboutpage_row_4 .table-text {
+    font-size: 18px;
+}
+
+#aboutpage_row_4_text {
+  margin-bottom:  42px; 
+}
+
+
+
+
+
+/*===== СТРАНИЦА  КОНТАКТЫ ====================*/
+#contacts_row_1{
+  color: #2e2e2e;
+  background-image: url(../pics/about.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 545px;
+  z-index: 1;
+  text-align: center;
+}
+
+#contacts_row_2{
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  color: #2e2e2e;
+}
+
+#contacts_row_3{
+  margin-bottom: 93px;
+}
+
+#contacts_row_4,
+#contacts_row_5{
+  margin-bottom: 50px;
+}
+
+#contacts_row_1_announce{
+  margin-top: 68px;
+  margin-bottom: 84px;
+}
+
+#contacts_row_1_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+#contacts_row_2_text p,
+#contacts_row_5_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+}
+
+#contacts_row_2_text p>span,
+#contacts_row_4_text p>span,
+#contacts_row_5_text p>span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#contacts_row_3 .div-table-col,
+#contacts_row_4 .div-table-col {
+    margin-bottom: 9px;
+}
+
+#contacts_row_3 .table-text,
+#contacts_row_4 .table-text {
+    font-size: 18px;
+}
+
+#contacts_row_4_text {
+  margin-bottom:  42px; 
+}
+
+.contacts-wrapper {
+  text-align: center;
+}
+
+.contacts-block {
+  background-color: white;
+  max-width: 450px;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.contacts-block:last-child{
+  
+}
+
+.div-table-contacts{
+  display:table;         
+  width: 400px;         
+  /*background-color:#eee;*/         
+  /*border:1px solid  #666666;*/         
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+}
+
+.div-table-col-contacts{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: calc(100% - 70px);
+  width: -moz-calc(100% - 70px);
+  width: -webkit-calc(100% - 70px);         
+  /*background-color:#ccc; */ 
+  margin-bottom: 5px;
+}
+.div-table-col-contacts-img{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:70px;         
+  /*background-color:#ccc;  */
+}
+
+.table-text-contacts{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.div-table-col-contacts-img img{
+  width: 55px;
+  height: 55px;
+  margin-top: 12px;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.table-text-contacts span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.yandex-map-container {
+  width: 100%;
+  float: left;
+  height: 402px;
+  background-color: #fff;
+  padding: 0;
+}
+.yandex-map-container div {
+  height: 100%;
+}
+
+
+
+
+
+/*====================== МЕДИАЗАПРОСЫ ======================== */
+@media (max-width: 1362px) {    /*font lower 1330px*/
+
+   #license_fourth_row_block span {
+         font-size: 30px !important;
+   }
+   #license_fourth_row_block2 p  {
+        font-size: 25px !important;
+   }
+
+   #license_second_row_announcement, #license_second_row_announcement2 {
+      margin-top: 50px !important;
+   }
+
+   #license_second_row_announcement span:nth-child(1) {
+      font-size: 30px !important;
+   }
+
+   #license_second_row_announcement span:nth-child(3) {
+      margin-top: 37px;
+   }
+
+   #license_second_row_announcement span:nth-child(3),
+   #license_second_row_announcement span:nth-child(3) {
+       font-size: 22px !important;
+   }
+
+   .phone {
+     font-size: 16px !important;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    margin-top: 0px;    
+    margin-left: 60px !important;
+   }
+}/* ==== */
+
+
+
+@media (max-width: 900px) {    /*font lower 900px*/
+  
+
+  /*-- 3 блока тарифов --*/
+   #tariffs .item {
+      width: 100%;
+   }
+
+
+  #license_third_row{
+    padding-left: 10px;
+  }
+
+  /* уменьшаем шары на 10px*/
+  .license_line_inner1 {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .license_line_inner1 span {
+    position: absolute;
+    left: 15px !important;
+    top: 4px !important;
+    font-size: 21px !important;
+  }
+
+  /* Уменьшаем шрифты */
+  #license_announce span:nth-child(2),
+  #license_second_row_announcement span:nth-child(1) {
+      font-size: 25px !important;
+  }
+  #license_announce span:nth-child(1),
+  #license_announce span:nth-child(3),
+  #license_second_row_announcement span:nth-child(2),
+  #license_second_row_announcement span:nth-child(3) {
+    font-size: 21px !important;
+  }
+
+  /* Убираем отступы */
+  #license_text {
+    padding: 8px 0px 17px 0px !important;
+  }
+  #license_fourth_row_block{
+    padding-top: 25px;
+  }
+
+  #license_third_row_announcement, #license_third_row_block {
+    padding-left: 0px;
+  }
+
+   #license_fourth_row_block span {
+         font-size: 21px !important;
+   }
+   #license_fourth_row_block2 p  {
+        font-size: 21px !important;
+   }
+ }/*====*/
+
+
+  @media (max-width: 768px) {   /*font lower 768px*/
+      #license_third_row_announcement, 
+      #license_third_row_block {
+          padding-bottom: 0px !important;
+      }
+      #license_third_row_announcement {
+        margin-top: -105px;
+      }
+  }/*=====*/
+
+
+  @media (max-width: 500px) {   /*font lower 500px*/
+
+    /*-- приводим в порядок карусель --*/
+    .half-sm-left {
+      float: none;
+      width: 100%;
+    }
+    .carousel-secondary-wrapper .carousel .wrapper {
+       font-size: 27px
+    }
+    .carousel-main-wrapper .carousel .wrapper {
+       font-size: 35px;
+       padding-top: 7%;
+       padding-left: 3%;
+   }
+
+    #license_first_row {
+      margin-top: 0px;
+    }
+
+
+      .license_line_wrapper,
+      .license_line {
+          width: 310px !important;
+    }
+
+    .license_line_inner2 {
+    width: 263px !important;
+  }
+
+  #license_third_row_announcement {
+      margin-top: 0 !important;
+  }
+
+ #license_third_row_block {
+    padding-top: 50px; 
+  }
+
+  #license_third_row_announcement span {
+    font-size: 25px;
+    margin-top: -20px;
+  }
+
+  #license_second_row_announcement2 p, 
+  #license_announce span:nth-child(2), 
+  #license_second_row_announcement span:nth-child(1) {
+    font-size: 21px !important;
+  }
+
+  #license_announce span:nth-child(1), 
+  #license_announce span:nth-child(3), 
+  #license_second_row_announcement span:nth-child(2), 
+  #license_second_row_announcement span:nth-child(3) {
+    font-size: 17px !important;
+  }
+
+
+  .div-table-contacts {
+    width: 100%;
+  }
+
+  .contacts-block {
+    margin-left: 0;
+  }
+
+}/* ==== */
+
+
+
+
+
+/* Решение проблемы с иконками услуг */
+.services_icons {
+  padding: 0;
+}
+
+
+
+
+
+
