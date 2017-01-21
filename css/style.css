@@ -61,6 +61,7 @@ h3 {
   text-align: center;
 }
 
+
 .center-div {
   clear: both;
   height: 0;
@@ -1236,6 +1237,7 @@ header ul li a:hover, footer ul li a:hover {
 }
 
 #feedback_form_wrapper{
+
   margin-top: 40px;
   margin-bottom: 100px;
   background-color: #fff;
@@ -1611,16 +1613,44 @@ header ul li a:hover, footer ul li a:hover {
 }/* ==== */
 
 
+@media (max-width: 1100px) {  /* Lower than 1100px */
+     
+    .feedback_name_input, .feedback_email_input {
+      float: left;
+      width: 43%;
+      padding: 0px 0px 0px 0px;
+    }
+    .feedback_name_input {
+      text-align: left;
+      margin-left: 20px;
+    }
+    .feedback_email_input{
+      text-align: left;
+    }
+    .feedback_name_input{
+      margin-right:  0;
+      padding: 0px 0px 0px 0px;
+    }
+    .feedback_text_input textarea {
+        width: 500px;
+    }
+    #feedback_form_wrapper input[type="text"] {
+      width: 100%;
+    }
+    .feedback_text_input {
+      padding-left: 21px;
+      text-align: left;
+    }
+}/*=======*/
+
+
 
 @media (max-width: 900px) {    /*font lower 900px*/
   
-
   /*-- 3 блока тарифов --*/
    #tariffs .item {
       width: 100%;
    }
-
-
   #license_third_row{
     padding-left: 10px;
   }
@@ -1679,6 +1709,36 @@ header ul li a:hover, footer ul li a:hover {
         margin-top: -105px;
       }
   }/*=====*/
+
+
+  @media (max-width: 800px) {
+           
+    .feedback_name_input,
+    .feedback_email_input  {
+       margin-left: 0px;
+       margin-left: 0px;
+    }
+    .feedback_name_input, .feedback_email_input {
+        float: left;
+        width: 96%;
+        text-align: left;
+        padding: 0px 0px 2px 21px;
+    }
+    .feedback_name_input{
+      margin-right: 0px;
+      padding-bottom: 6px;
+    }
+    
+    .feedback_text_input textarea {
+        width: 96%;
+    }
+    #feedback_form_wrapper input[type="text"] {
+      width: 100%;
+    }
+
+
+  }/*=====*/
+
 
 
   @media (max-width: 500px) {   /*font lower 500px*/
