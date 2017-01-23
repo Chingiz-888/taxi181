@@ -1615,8 +1615,9 @@ table.tariffs_table span{
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 545px;
-  color: #2e2e2e;
+  min-height: 844px;
+  text-align: center;
+  color: white;
 }
 
 #aboutpage_row_3{
@@ -1636,6 +1637,23 @@ table.tariffs_table span{
   font-family: OpenSansBold, sans-serif;
   font-size: 40px;
   text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+#aboutpage_row_2_announce span {
+  display: block;
+}
+
+#aboutpage_row_2_announce span:nth-child(1) {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+  color: white;
+}
+
+#aboutpage_row_2_announce span:nth-child(2),
+#aboutpage_row_2_announce span:nth-child(3) {
+  font-family: OpenSansRegular, sans-serif;
+  font-size: 20px;
+  line-height: 42px;
 }
 
 #aboutpage_row_2_text p,
@@ -1666,6 +1684,69 @@ table.tariffs_table span{
   margin-bottom:  42px; 
 }
 
+#about_white_div{
+  background-color: #fff;
+  color: #2e2e2e;
+  padding: 30px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+#about_div_1 {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+#about_div_2 {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+#about_div_3 {
+  float: left;
+  width: 50%;
+  background-color: #ffd800;
+  min-height: 267px;
+}
+#about_div_3 .about_special{
+  font-size: 28px;
+  font-family: OpenSansRegular, sans-serif;
+  font-weight: 500;
+  line-height: 50px;
+  text-shadow: none;
+  color: #2e2e2e;
+}
+
+#about_div_2 .license_line_wrapper,
+#about_div_2 .license_line {
+  width: 100%;
+  min-height: 92px;
+}
+#about_div_2 .license_line_inner2{
+  width: 50px;
+}
+#about_div_2 .license_line_inner2{
+  width: 380px;
+}
+#about_div_2 span.about_special{
+  font-size: 28px;
+  font-family: OpenSansRegular, sans-serif;
+  font-weight: 500;
+  text-shadow: none;
+  color: #2e2e2e;
+}
+#about_div_3 span.about_special{
+  font-size: 25px;
+  padding-top: 14px;
+  font-family: OpenSansRegular, sans-serif;
+  font-weight: bold;
+  text-shadow: none;
+  color: #2e2e2e;
+}
+#about_div_3 p{
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 20px;
+}
 
 
 
@@ -1910,7 +1991,7 @@ table.tariffs_table span{
   /* Уменьшаем шрифты */
   #license_announce span:nth-child(2),
   #license_second_row_announcement span:nth-child(1) {
-      font-size: 25px !important;
+      font-size: 35px;
   }
   #license_announce span:nth-child(1),
   #license_announce span:nth-child(3),
@@ -1985,6 +2066,18 @@ table.tariffs_table span{
     }
     #feedback_form_wrapper input[type="text"] {
       width: 100%;
+    }
+
+    #about_div_2 {
+      float: none;
+      width: 100%;
+      text-align: left;
+    }
+    #about_div_3 {
+      float: none;
+      width: 100%;
+      background-color: #ffd800;
+      min-height: 267px;
     }
 
 
@@ -2091,6 +2184,20 @@ table.tariffs_table span{
     text-align: left;
   }
 
+  #aboutpage_row_2_announce{
+      width: 320px;
+      margin-left: -18px;
+  }
+  #about_div_2 {
+    height: 318px;
+  }
+  #about_div_2 .license_line_inner2{
+    width: 244px;
+    margin-left: -15px;
+  }
+  #about_div_2 .license_line_wrapper{
+    margin-left: -24px;
+  }
 
 }/* ==== */
 
