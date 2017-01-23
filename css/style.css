@@ -532,7 +532,7 @@ header ul li a:hover, footer ul li a:hover {
   color: #2e2e2e;
 }
 #tariffs_row_5{
-  background: #f9f9f9;
+  background: #fefefe;
   min-height: 650px;
   margin-bottom: 50px;
   text-align: center;
@@ -635,7 +635,84 @@ table.tariffs_table span{
 .tariffs_table td {
   text-align: center;
 }
+
+
+#tariffs_row_5_left_1,
+#tariffs_row_5_right_1,
+#tariffs_row_5_left_2,
+#tariffs_row_5_left_3,
+#tariffs_row_5_right_3 {
+  float: left;
+}
+
+#tariffs_row_5_left_1 {
+  width: 517px;
+  height: 80px;
+  background-color: white;
+  height    : 80px;
+  line-height : 80px;
+  font-family: "OpenSansSemiBold", sans-serif;
+  font-size: 30px;
+}
+#tariffs_row_5_right_1 {
+  width: 695px;
+  height: 83px;
+  background-color: black;
+  font-size: 25px;
+  line-height: 26px;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#tariffs_row_5_right_1 p:nth-child(odd){
+  line-height: 4px;
+}
+
+#tariffs_row_5_left_2 {
+  width: 100%;
+  background-color: #fefefe;
+  padding: 40px 10px 20px 0;
+  color: #2b2c2f;
+  font-size: 25px;
+  text-align: left;
+}
+#tariffs_row_5_left_2 span{
+  color: #0983b1;
+  font-weight: bold;
+}
+#tariffs_row_5_left_3 {
+  width: 544px;
+  min-height: 328px;
+  background-color: white;
+  font-family: OpenSansRegular, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2e2e2e;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+#tariffs_row_5_right_3 {
+  width: auto;
+  height: auto;
+  padding-top: 103px;
+  padding-left: 86px;
+}
+#tariffs_row_5_right_3 img {
+  width: 580px;
+  
+}
+
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
+
+
+
+
+
+
+
 
 /* ====================== СТРАНИЦА "ЛИЦЕНЗИЯ ТАКСИ" ======================== */
 #license_first_row{
