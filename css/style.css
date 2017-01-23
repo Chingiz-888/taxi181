@@ -639,7 +639,8 @@ table.tariffs_table span{
   padding: 0;
   margin: 0;
 }
-.tariffs_table td {
+.tariffs_table td,
+.tariffs_table th {
   text-align: center;
 }
 
