@@ -109,6 +109,13 @@ h3 {
   font-family: OpenSansBold;
   font-size: 20px;
 }
+.phone a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+.phone a:hover {
+  color: #5e5e5e;
+}
 
 .left {
   float: left;
