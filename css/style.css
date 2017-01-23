@@ -1937,6 +1937,17 @@ table.tariffs_table span{
    #license_fourth_row_block2 p  {
         font-size: 21px !important;
    }
+
+   /*--  каруселька на главной --*/
+   .carousel .slick-dots {
+      left: calc(50% - 42px); 
+      width: 81px;
+  }
+  .carousel-secondary-wrapper .carousel .wrapper {
+    text-align: center;
+    position: absolute;
+    top: 28%;
+  }
  }/*====*/
 
 
