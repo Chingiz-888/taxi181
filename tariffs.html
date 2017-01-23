@@ -54,8 +54,8 @@
 		<div class="col-xs-12 col-sm-6 col-sm-offset-3 tariffs_announce">
 			  	<span>Тариф по городу*</span>
 		</div>
-		<div class="tariffs_table">
-			<table class="table table-striped table-bordered">
+		<div class="tariffs_table" id="tariffs_table_6">
+			<table class="table table-striped table-bordered tariffs_table">
 				   <tr>
 				       <th>Класс авто</th>
 				       <th>День с 7.00 - 21.00</th>
@@ -112,7 +112,7 @@
 			  	<span>Тариф в аэропорт*</span>
 		</div>
 		<div class="tariffs_table">
-			<table class="table table-striped table-bordered" id="tariffs_table_2">
+			<table class="table table-striped table-bordered tariffs_table">
 				   <tr>
 				       <th>Округ</th>
 				       <th colspan="3">Шереметьево</th>
@@ -262,10 +262,67 @@
 	  	<div class="col-xs-12 col-sm-6 col-sm-offset-3 tariffs_announce">
 			  	<span>Тариф на трансфер*</span>
 		</div>
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2 tariffs_table">
-			
+		<div class="tariffs_table">
+			   <table class="table table-striped table-bordered tariffs_table">
+				   <tr>
+				       <th>Округ</th> 
+				       <th>«Эконом»</th>
+				       <th>«Комфорт»</th>
+				       <th>«Бизнес»</th>
+				       <th>«Минивен»</th>
+				       <th>«Универсал»</th>
+				  </tr>    
+				  <tr>
+				       <th>Шереметьево В(1)-Шереметьево F(2)</th>
+				       <td>500 руб</td>
+				       <td>600 руб</td>
+				       <td>800 руб</td>
+				       <td>1500 руб</td>
+				       <td rowspan="7"></td>
+				  </tr>
+				  <tr>
+				       <th>Шереметьево - Домодедово</th>
+				       <td>1500 руб</td>
+				       <td>1600 руб</td>
+				       <td>2000 руб</td>
+				       <td rowspan="6" style="vertical-align: middle;">3400 руб</td>
+				  </tr>
+				  <tr>
+				       <th>Шереметьево - Вннуково</th>
+				       <td>1400 руб</td>
+				       <td>1500 руб</td>
+				       <td>1650 руб</td>
+				  </tr>
+				  <tr>
+				       <th>Шереметьево - Быково</th>
+				       <td>1500 руб</td>
+				       <td>1600 руб</td>
+				       <td>1700 руб</td>
+				  </tr>
+				  <tr>
+				       <th>Внуково - Домодедово</th>
+				       <td>1300 руб</td>
+				       <td>1400 руб</td>
+				       <td>1600 руб</td>
+				  </tr>
+				  <tr>
+				       <th>Домодедово - Быково</th>
+				       <td>1300 руб</td>
+				       <td>1400 руб</td>
+				       <td>1600 руб</td>
+				  </tr>
+				  <tr>
+				       <th>Внуково - Быково</th>
+				       <td>1400 руб</td>
+				       <td>1500 руб</td>
+				       <td>1700 руб</td>
+				  </tr>
+				  <tr>
+				       <td colspan="6">Цены на трансфер указаны с учетом суммы подачи.</td>
+				  </tr>
+			 </table> 
 			 <div class="table_div">
-				<span>*Включено 10 минут бесплатного ожидания</span>
+				<span>*Включено 30 минут ожидания при встрече в аэропорту</span>
 			</div>
 		</div>
   </div>
@@ -273,10 +330,46 @@
   <!--- ROW # 4 -->
   <div class="container col-xs-12 tariffs_div_announce"  id="tariffs_row_4">
 	  	<div class="col-xs-12 col-sm-6 col-sm-offset-3 tariffs_announce">
-			  	<span>Тариф по городу*</span>
+			  	<span>Тариф на вокзал*</span>
 		</div>
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2 tariffs_table">
-			
+		<div class="tariffs_table">
+			 <table class="table table-striped table-bordered tariffs_table">
+			 	 <tr>
+				       <th>Класс авто</th> 
+				       <th colspan="2">Проводы на вокзал</th>
+				       <th>Встреча на вокзале</th>
+				  </tr>    
+				  <tr>
+				       <th></th>
+				       <td>День 7:00 - 21:00</td>
+				       <td>Ночь 21:00 - 7:00<br>выходные и праздничные дни</td>
+				       <td></td>
+				  </tr>
+				  <tr>
+				       <th>«Эконом»</th>
+				       <td>30 мин - 450 руб.<br>далее 11 руб./мин</td>
+				       <td>30 мин - 500 руб.<br>далее 13 руб./мин</td>
+				       <td rowspan="5" style="vertical-align: middle;">150 руб. + тариф проводы на вокзал</td>
+				  </tr>
+				  <tr>
+				       <th>«Комфорт»</th>
+				       <td>30 мин - 500 руб.<br>далее 12 руб./мин</td>
+				       <td>30 мин - 550 руб.<br>далее 14 руб./мин</td>
+				  </tr>
+				  <tr>
+				       <th>«Бизнес» Ford Mondeo</th>
+				       <td>30 мин - 600 руб.<br>далее 15 руб./мин</td>
+				       <td>30 мин - 600 руб.<br>далее 16 руб./мин</td>
+				  </tr>
+				  <tr>
+				       <th>Минивен<br>перевозка до 8 пассажиров</th>
+				       <td colspan="2">2 часа - 2000 руб. далее 30 мин - 500 руб.</td>
+				  </tr>
+				  <tr>
+				       <th>Универсал</th>
+				       <td colspan="2">200 руб. к тарифу</td>
+				  </tr>
+			 </table>
 			 <div class="table_div">
 				<span>*Включено 10 минут бесплатного ожидания</span>
 			</div>
@@ -284,27 +377,60 @@
   </div>
   <!--- ROW # 5  -->
   <div class="container col-xs-12 tariffs_div_announce"  id="tariffs_row_5">
-	  	<div class="col-xs-12 col-sm-6 col-sm-offset-3 tariffs_announce">
-			  	<span>Тариф на вокзал*</span>
-		</div>
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2 tariffs_table">
-			
-			 <div class="table_div">
-				<span>*Включено 10 минут бесплатного ожидания</span>
-			</div>
-		</div>
+			  <div id="tariffs_row_5_left_1">«Универсал»</div>
+			  <div id="tariffs_row_5_right_1">для поездок на природу, дачу или 
+									в магазин за габаритными покупками. 
+			  </div>
+			  <div style="clear: both;"></div>
+			  <div id="tariffs_row_5_left_2">
+			  		Также может использоваться для перевозки до 400 килограмм груза. Универсал отлично подходит для встречи пассажиров в аэропортах, на ж/д и авто- вокзалах.
+			  </div>
+			  <div style="clear: both;"></div>
+			  <div id="tariffs_row_5_left_3">
+				  	<p>- При смене дневного и ночного тарифа в течение одной поездки ее стоимость определяется по времени суток, на которые пришлась большая часть поездки. Клиенту предоставляется 10 минут бесплатного времени для выхода к автомобилю, с момента оповещения о его подачи. </p>
+
+					<p>- Если Клиент оповещен о подаче автомобиля не позже чем за 10 мин. до контрольного времени, то ожидание будет платным. </p>
+
+					<p>- В случае отказа клиента от поездки, менее чем за 30 минут, если автомобиль прибыл по адресу, Клиент оплачивает минимальную стоимость поездки по городскому тарифу. </p>
+
+					<p>- При отказе клиента от заказа машины «минивен» и «бизнес» менее чем за 1 час до контрольного времени, клиент оплачивает стоимость минимального заказа.</p>
+			  </div>
+			  <div id="tariffs_row_5_right_3"><img src="pics/tariffs_car.jpg"</div>
+			  <div style="clear: both;"></div>
   </div>
 
   <!--- ROW # 6  -->
   <div class="container col-xs-12 tariffs_div_announce"  id="tariffs_row_6">
-	  	<div class="col-xs-12 col-sm-6 col-sm-offset-3 tariffs_announce">
-			  	<span>«Универсал»</span>
+	  	<div class="col-xs-12 col-sm-8 col-sm-offset-2 tariffs_announce">
+			  	<span>Тарифы на дополнительные услуги</span>
 		</div>
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2 tariffs_table">
-			
-			 <div class="table_div">
-				<span>*Включено 10 минут бесплатного ожидания</span>
-			</div>
+		<div class="tariffs_table">
+			 <table class="table table-striped table-bordered tariffs_table">
+				   <tr>
+				       <th>«Перевозка животных»</th> 
+				       <td colspan="2">Перевозка животных в автомобиле согласуется с водителем и осуществляется при соблюдении правил перевозки животных, оплачивается дополнительно в размере 150 руб. Стоимость услуги обязательно согласуется диспетчером при оформленнии заказа клиенто. Собаки перевозятся в намордниках и на подстилке клиента. Кошки перевозятся в специальных контейнерах. Оказание помощи в переноске багажа - единовременная доплата 150 рублей к тарифу поездки</td>
+				  </tr>    
+				  <tr>
+				       <th>«Грузчик»</th> 
+				       <td colspan="2">Оказание помощи в переноске тяжолого иои "негабаритного груза" (по согласованию с водителем)<br>единовременая доплата 300 руб. к тарифу поездки</td>
+				  </tr>
+				  <tr>
+				       <th>«Детское кресло»(бустер)</th> 
+				       <td colspan="2">150 руб. доплата ко всем тарифам за каждый бустер.</td>
+				  </tr>
+				  <tr>
+				       <th>«Багаж»</th> 
+				       <td colspan="2">Багаж перевозиться в багажнике автомобиля - бесплатно. Перевозка дополнительного багажа (сумки, коробки, и т.д.) в салоне автомобиля оплачивается дополнительно в сумме 100 руб.за каждое место.</td>
+				  </tr>
+				  <tr>
+				       <th rowspan="2">«Перегон автомобиля»</th> 
+				       <td>Минимальный заказ 1500 руб. - 1 час</td>
+				       <td>Свыше мин. заказа 1000 руб. - последующий час</td>
+				  </tr>
+				  <tr> 
+				       <td colspan="2">Свыше мин. заказа 1000 руб. - последующий час</td>
+				  </tr>
+			 </table> 
 		</div>
   </div>
 
