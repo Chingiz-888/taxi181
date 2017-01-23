@@ -30,6 +30,7 @@
  .navbar-nav {
     margin: 0;
     margin-left: 45px;
+    display: inline-block;
  }
 
 
@@ -40,8 +41,7 @@
 }
 
 .navbar-nav > li:last-child {
-    /*margin-right: -15px;*/
-    margin-right: -144px;*
+    margin-right: 0;
 }
 
 
