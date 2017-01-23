@@ -474,6 +474,161 @@ header ul li a:hover, footer ul li a:hover {
 
 
 
+/* ================ СТРАНИЦА "ТАРИФЫ" ======================== */
+#tariffs_row_1{
+  background: #fff;
+  background-image: url(../pics/tariffs_image_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 821px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+#tariffs_row_2{
+  background: #fff;
+  background-image: url(../pics/tariffs_image_2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 1300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+#tariffs_row_3{
+  background: #fff;
+  background-image: url(../pics/tariffs_image_3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 970px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+#tariffs_row_4{
+  background: #fff;
+  background-image: url(../pics/tariffs_image_4.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 830px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #2e2e2e;
+}
+#tariffs_row_5{
+  background: #f9f9f9;
+  min-height: 650px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2e2e2e;
+}
+
+#tariffs_row_6{
+  background: #fff;
+  background-image: url(../pics/tariffs_image_6.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 757px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.tariffs_announce{
+  margin-top: 68px;
+  margin-bottom: 50px;
+}
+
+.tariffs_announce span {
+  font-family: OpenSansBold, sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);
+}
+
+.tariffs_div_announce:nth-child(even) span {
+  color: white;
+}
+
+.tariffs_table {
+  width: 1198px;
+  margin: 50px auto;
+  text-align: center;
+}
+.tariffs_table table{
+  display: inline-block;
+  background-color: #fff !important;
+  width: auto;
+  margin-bottom: 0;
+}
+.tariffs_table table th{
+  font-size: 20px;
+}
+
+.tariffs_table table span{
+  font-size: 25px;
+  color: #2e2e2e !important;
+}
+.table_div {
+  background-color: #000;
+  width: auto;
+  height: 65px;
+  margin-bottom: 58px; 
+  color: white;
+  text-align: center;
+  height    : 80px;
+  line-height : 80px;
+}
+ /*.table > thead > tr > th,
+      .table > tbody > tr > th,
+      .table > tfoot > tr > th,
+      .table > thead > tr > td,
+      .table > tbody > tr > td,
+      .table > tfoot > tr > td {
+      padding: 5px;
+    }*/
+
+
+#tariffs_table_2 > thead > tr > th,
+#tariffs_table_2 > tbody > tr > th,
+#tariffs_table_2 > thead > tr > td,
+#tariffs_table_2 > tbody > tr > td{
+      padding-top:    30px;
+      padding-bottom: 30px;
+}
+#tariffs_table_2,
+#tariffs_table_2 >  tbody{
+  width: 1194px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#tariffs_table_2 td {
+  text-align: center;
+}
+ 
+
 /* ====================== СТРАНИЦА "ЛИЦЕНЗИЯ ТАКСИ" ======================== */
 #license_first_row{
    width: 100%; 
