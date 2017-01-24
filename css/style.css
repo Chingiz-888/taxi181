@@ -598,7 +598,7 @@ table.tariffs_table th{
   font-size: 20px;
 }
 table.tariffs_table span{
-  font-size: 25px;
+  font-size: 20px;
   color: #2e2e2e !important;
 }
 .bottom_table_div {
@@ -627,8 +627,8 @@ table.tariffs_table span{
 .tariffs_table > tbody > tr > th,
 .tariffs_table > thead > tr > td,
 .tariffs_table > tbody > tr > td{
-      padding-top:    30px;
-      padding-bottom: 30px;
+      padding-top:    14px;
+      padding-bottom: 14px;
       padding-right: 9px;
       padding-left: 2px;
 }
@@ -643,7 +643,21 @@ table.tariffs_table span{
 .tariffs_table th {
   text-align: center;
 }
-
+.column_left {
+  text-align: left !important;
+  padding-left: 27px !important;
+  vertical-align: middle !important;
+}
+#column_left_specail{
+  padding-right: 191px !important;
+}
+.special2 th{
+  padding-left: 9px !important;
+  padding-right: 9px !important;
+}
+.special5 {
+  width: 248px !important;
+}
 
 #tariffs_row_5_left_1,
 #tariffs_row_5_right_1,
@@ -672,11 +686,9 @@ table.tariffs_table span{
   text-align: left;
   padding-left: 50px;
 }
-
 #tariffs_row_5_right_1 p:nth-child(odd){
   line-height: 4px;
 }
-
 #tariffs_row_5_left_2 {
   width: 100%;
   background-color: #fefefe;
@@ -702,17 +714,18 @@ table.tariffs_table span{
   padding-bottom: 25px;
   padding-left: 15px;
 }
+/*-- школа октавия --*/
 #tariffs_row_5_right_3 {
-  width: auto;
-  height: auto;
-  padding-top: 103px;
-  padding-left: 86px;
+  width: 544px;
+  height: 100%;
+  position: relative;
 }
 #tariffs_row_5_right_3 img {
-  width: 580px;
-  
+  position: absolute;
+  top: 90px;
+  right: -223px;
+  width: 592px;
 }
-
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
 
 
@@ -951,8 +964,6 @@ table.tariffs_table span{
   padding-top: 17px;
   color: #f5e10a;
 }
-
-
 
 #license_button {text-decoration:none; text-align:center; 
  padding:14px 53px; 
@@ -1522,9 +1533,6 @@ table.tariffs_table span{
    resize: none;
 }
 
-
-
-
 #feedback_button {text-decoration:none; text-align:center; 
  padding:14px 53px; 
  margin-top: 30px;
@@ -1586,18 +1594,6 @@ table.tariffs_table span{
   
  text-shadow: 3px -1px 6px #bababa; 
  filter: dropshadow(color=#bababa, offx=3, offy=-1);}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
