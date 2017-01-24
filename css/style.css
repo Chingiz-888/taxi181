@@ -504,7 +504,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 1300px;
+  min-height: 1139px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -518,7 +518,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 970px;
+  min-height: 852px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -532,7 +532,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 830px;
+  min-height: 838px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -540,7 +540,7 @@ header ul li a:hover, footer ul li a:hover {
 }
 #tariffs_row_5{
   background: #fefefe;
-  min-height: 650px;
+  height: 767px;
   margin-bottom: 50px;
   text-align: center;
   text-align: center;
@@ -556,7 +556,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 757px;
+  min-height: 742px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
