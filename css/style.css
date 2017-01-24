@@ -539,7 +539,8 @@ header ul li a:hover, footer ul li a:hover {
   color: #2e2e2e;
 }
 #tariffs_row_5{
-  background: #fefefe;
+  background: #fbfbfb;
+  background: linear-gradient(to bottom, #fbfbfb 0%, #f7f7f7 75%, #ededed 100%);
   height: 767px;
   margin-bottom: 50px;
   text-align: center;
@@ -580,14 +581,14 @@ header ul li a:hover, footer ul li a:hover {
 
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
 .tariffs_table_div {
-  width: 1212px;
+  width: 1238px;
   margin: 50px auto;
   text-align: center;
 }
 table.tariffs_table {
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: #fff !important;
-  width: 1210px;
+  width: 1238px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -631,6 +632,7 @@ table.tariffs_table span{
       padding-bottom: 14px;
       padding-right: 9px;
       padding-left: 2px;
+      vertical-align: middle;
 }
 }
 .tariffs_table,
@@ -656,7 +658,7 @@ table.tariffs_table span{
   padding-right: 9px !important;
 }
 .special5 {
-  width: 248px !important;
+  width: 300px !important;
 }
 
 #tariffs_row_5_left_1,
@@ -668,7 +670,7 @@ table.tariffs_table span{
 }
 
 #tariffs_row_5_left_1 {
-  width: 517px;
+  width: 526px;
   height: 80px;
   background-color: white;
   height    : 80px;
@@ -677,7 +679,7 @@ table.tariffs_table span{
   font-size: 30px;
 }
 #tariffs_row_5_right_1 {
-  width: 695px;
+  width: 712px;
   height: 83px;
   background-color: black;
   font-size: 25px;
@@ -691,7 +693,6 @@ table.tariffs_table span{
 }
 #tariffs_row_5_left_2 {
   width: 100%;
-  background-color: #fefefe;
   padding: 40px 10px 20px 0;
   color: #2b2c2f;
   font-size: 25px;
@@ -705,7 +706,7 @@ table.tariffs_table span{
   width: 544px;
   min-height: 328px;
   background-color: white;
-  font-family: OpenSansRegular, sans-serif;
+  font-family: OpenSans, sans-serif;
   font-style: oblique;
   font-weight: 400;
   font-size: 17px;
@@ -724,8 +725,20 @@ table.tariffs_table span{
 #tariffs_row_5_right_3 img {
   position: absolute;
   top: 90px;
-  right: -223px;
+  right: -213px;
   width: 592px;
+}
+
+.td_left{
+  text-align: left !important;
+  padding-left: 26px !important;
+}
+.td_right{
+  text-align: right !important;
+  padding-right: 26px !important;
+}
+.special_td_1{
+  width: 172px;
 }
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
 

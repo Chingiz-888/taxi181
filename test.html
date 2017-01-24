@@ -1,63 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
- <meta charset="UTF-8">
- <title>Урок html разметки</title>
- <meta name="description" content="Урок HTML разметки">
- <meta name="keywords" content="html,Lesson">
-</head>
-<body>
-    <div class="block_green">
-  <h1>Это DIV # 1</h1>
-  <p>Параграф номер <strong>1</strong> <span class="color_world">Параграф</span> номер один Параграф номер один Параграф номер один Параграф номер один Параграф номер один</p>
-  <p>Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2</p>
- </div>
- <div class="block_red">
-  <h1>Это DIV # 2</h1>
-  <p>Параграф номер <strong>2</strong> <span class="color_world">Параграф</span> номер один Параграф номер один Параграф номер один Параграф номер один Параграф номер один</p>
-  <p>Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2</p>
- </div>
- <div class="block_green">
-  <h1>Это DIV # 3</h1>
-  <p>Параграф номер <strong>3</strong> <span class="color_world">Параграф</span> номер один Параграф номер один Параграф номер один Параграф номер один Параграф номер один</p>
-  <p>Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 2</p>
- </div>
- <div class="block_red">
-  <h1>Это DIV # 4</h1>
-  <p>Параграф номер <strong>4</strong> <span class="color_world">Параграф</span> номер один Параграф номер один Параграф номер один Параграф номер один Параграф номер один</p>
-  <p>Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2 Параграф номер 2</p>
- </div>
-
- <style type="text/css">
-   .block_red, .block_green {
-      width:50%;
-      box-sizing: border-box;
-      float: left;
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Кнопка</title>
+  <style>
+   button {
+    background: #b5bdc8;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 10px 20px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #333; /* Параметры рамки */
+    border-radius: 20px; /* Радиус скругления */
    }
-   
-   div:hover {
-         font-size: 35px;
-          color: black;
-   }
-
-  div {
-    border: 3px red dashed;
-    color: #222;
-    box-sizing: border-box;
-  }
-
-
-  body {
-  margin: 0;
-  }
-
-   .block_red {
-      background-color: rgba(255, 0, 0, 0.6);
-   }
-
-   .block_green {
-      background-color: rgba(0, 255, 0, 0.6);
-   }
- </style>
-</body>
+  </style>
+ </head>
+ <body>
+   <button>Нажми меня нежно</button>
+ </body>
 </html>
