@@ -4203,12 +4203,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 1200px) {
 
-   #myNavbar {
-    display: inline-block;
-    text-align: center;
-    width: 87%;
-   }
-
   .navbar-collapse {
     width: auto;
     border-top: 0;

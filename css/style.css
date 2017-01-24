@@ -1845,7 +1845,7 @@ table.tariffs_table span{
 
 .contacts-block {
   background-color: white;
-  max-width: 450px;
+  max-width: 410px;
   display: inline-block;
   margin-left: 10px;
   border-radius: 5px;
@@ -1858,7 +1858,7 @@ table.tariffs_table span{
 
 .div-table-contacts{
   display:table;         
-  width: 400px;         
+  width: 395px;         
   /*background-color:#eee;*/         
   /*border:1px solid  #666666;*/         
   border-spacing:5px;/*cellspacing:poor IE support for  this*/
@@ -1915,7 +1915,7 @@ table.tariffs_table span{
 
 
 /*====================== МЕДИАЗАПРОСЫ ======================== */
-@media (max-width: 1362px) {    /*font lower 1330px*/
+@media (max-width: 1362px) {    /*font lower 1362x*/
 
    #license_fourth_row_block span {
          font-size: 30px !important;
@@ -1944,13 +1944,33 @@ table.tariffs_table span{
    .phone {
      font-size: 16px !important;
   }
-
   /*.navbar-nav*/ 
   #custom-navbar-ul{
     margin: 0;
     margin-top: 0px;    
     margin-left: 60px;
    }
+}/* ==== */
+
+@media (min-width: 1200px) {
+
+   #myNavbar {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   }
+}
+
+@media (max-width: 1200px) {    /*font lower 1200px*/
+    /*-- показываем левую иконку вместе с бургер кнокпой --*/
+    .nav-logo {
+      display: none;
+    }
+
+     #nav-logo{
+      float:left;
+      display: block !important;
+    }
 }/* ==== */
 
 

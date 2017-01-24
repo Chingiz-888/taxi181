@@ -19,6 +19,8 @@
               //$(".phone.right").css({"width":"150px"});
               //$(".phone.right").parent().parent().css({"width":"170px"});
               $(".navbar-nav").css({"margin-top": "25px"});
+              $(".nav-logo").css({"display":"none"});
+              $("#nav-logo-li").css({"display":"none"});
 
                //$("main").css("paddingTop","385px");
             } else {

@@ -1,14 +1,21 @@
  #nav-logo{
  	 	float:left;
+    display: none;
+    margin-top: 5px;
  }
+
+ .nav-logo {
+  float: left;
+  margin-top: -18px;
+  margin-right: 8px;
+  display: inherit;
+}
 
 #nav-logo-a{
  margin-top: -10px;
 }
 
-  #nav-icon3 {
-    display: none;
-  }
+  
 
 
  .navbar {
@@ -29,11 +36,12 @@
 
  .navbar-nav {
     margin: 0;
-    margin-left: 45px;
     display: inline-block;
  }
 
-
+#custom-navbar-ul {
+    margin-top: 0 !important;
+}
 .navbar-nav > li {
     float: left;
     margin-top: 9px;
