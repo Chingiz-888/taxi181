@@ -706,6 +706,7 @@ table.tariffs_table span{
   min-height: 328px;
   background-color: white;
   font-family: OpenSansRegular, sans-serif;
+  font-style: oblique;
   font-weight: 400;
   font-size: 17px;
   color: #2e2e2e;
