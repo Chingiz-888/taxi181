@@ -755,6 +755,9 @@ table.tariffs_table span{
    background-image: url(../pics/license_slider.jpg);
    background-repeat: no-repeat;
    background-position: top center;
+   -webkit-background-size: cover;
+   background-size: cover;
+   min-height: 689px;
    z-index: 1;
 }
 
@@ -770,7 +773,7 @@ table.tariffs_table span{
 #license_announce span:first-child  {
   font-size:   30px;
   text-transform: uppercase;
-  margin-top: 70px;
+  margin-top: 120px;
   text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
 
 }
@@ -783,19 +786,21 @@ table.tariffs_table span{
 #license_announce span:nth-child(3)  {
   font-size: 25px;
   margin-top: 35px;
+  text-shadow: 0px 1px 2px rgba(150, 150, 150, 1)
 }
 
 
 #license_text{
-  margin-top: 153px;
-  background-color: #000;
-  opacity: 0.6;
+  margin-top: 213px;
+  min-height: 138px;
+  background-color: rgba(0,0,0,0.6);
   color: white;
-  padding: 32px 20px 20px 20px;
+  display: flex;
+  align-items: center;
   text-align: center;
-  line-height: 36px;
-  font-family: "Open Sans";
-  font-size: 18px;
+  line-height: 26px;
+  font-family: 'OpenSansLight', sans-serif;
+  font-size: 19px;
 }
 
 /* ------- Row # 2 ----------- */
@@ -803,6 +808,7 @@ table.tariffs_table span{
 #license_second_row{
   background-color: #fff;
   background-image: url(../pics/license_image1.jpg);
+  height: 620px;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -987,8 +993,7 @@ table.tariffs_table span{
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px OpenSansBold; 
  color:#2e2e2e; 
  background-color:#ffef42; 
  background-image: -moz-linear-gradient(top, #ffef42 0%, #e7d31d 100%); 
@@ -1013,8 +1018,7 @@ table.tariffs_table span{
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px OpenSansBold;  
  color:#e5ffff; 
  background:#eddc26; 
  -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
@@ -1030,8 +1034,7 @@ table.tariffs_table span{
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px OpenSansBold;  
  color:#e5ffff; 
  background-color: #d8c400;
  -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
@@ -2042,7 +2045,9 @@ table.tariffs_table span{
 
   /* Убираем отступы */
   #license_text {
-    padding: 8px 0px 17px 0px !important;
+    padding: 8px !important;
+    margin-top: 265px;
+    font-size: 16px;
   }
   #license_fourth_row_block{
     padding-top: 25px;
