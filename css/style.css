@@ -822,7 +822,10 @@ table.tariffs_table span{
 }
 
 #license_second_row_announcement2 {
-    margin-top: 83px;
+    margin-top: 20px;
+    min-height: 97px;
+    display: flex;
+    align-items: center; 
 }
 
 #license_second_row_announcement span
@@ -859,7 +862,6 @@ table.tariffs_table span{
   background-color: #000;
   color: white;
   opacity: 0.6;
-  padding: 20px;
 }
 
 #license_second_row_announcement2 p {
@@ -1918,7 +1920,21 @@ table.tariffs_table span{
 
 
 /*====================== МЕДИАЗАПРОСЫ ======================== */
-@media (max-width: 1362px) {    /*font lower 1362x*/
+@media (max-width: 1658px) {   /*screen lower 1444px*/
+      #license_second_row_announcement,
+      #license_second_row_announcement2{
+        width: 700px;
+      }
+  }/*--*/
+
+
+
+@media (max-width: 1362px) {    /*screen lower 1362px*/
+
+   #license_second_row_announcement,
+      #license_second_row_announcement2{
+        width: initial;
+      }
 
    #license_fourth_row_block span {
          font-size: 30px !important;
@@ -1936,7 +1952,7 @@ table.tariffs_table span{
    }
 
    #license_second_row_announcement span:nth-child(3) {
-      margin-top: 37px;
+      margin-top: 168px;
    }
 
    #license_second_row_announcement span:nth-child(3),
@@ -2185,6 +2201,10 @@ table.tariffs_table span{
   #license_second_row_announcement span:nth-child(3) {
     font-size: 17px !important;
   }
+
+    #license_second_row_announcement span:nth-child(3) {
+      margin-top: 100px;
+   }
 
 
   .div-table-contacts {
