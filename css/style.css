@@ -1464,7 +1464,7 @@ table.tariffs_table span{
 
 #feedback_row_1_announce{
   margin-top: 85px;
-  margin-bottom: 90px;
+  margin-bottom: 36px;
 }
 
 #feedback_row_2{
@@ -1536,14 +1536,14 @@ table.tariffs_table span{
 #feedback_form_wrapper{
 
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 41px;
   background-color: #fff;
 }
 
 #feedback_form_wrapper span:first-child{
   display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 26px;
   font-weight: bold;
 }
@@ -1567,20 +1567,19 @@ table.tariffs_table span{
 }
 .feedback_text_input textarea{
   width: 688px;
-  height: 200px;
+  height: 150px;
    resize: none;
 }
 
 #feedback_button {text-decoration:none; text-align:center; 
  padding:14px 53px; 
  margin-top: 30px;
- margin-bottom: 50px;
+ margin-bottom: 30px;
  border:solid 1px #e7d31d; 
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px 'OpenSansBold', sans-serif; 
  color:#2e2e2e; 
  background-color:#ffef42; 
  background-image: -moz-linear-gradient(top, #ffef42 0%, #e7d31d 100%); 
@@ -1601,12 +1600,11 @@ table.tariffs_table span{
 
  #feedback_button:hover{
  padding:14px 53px; 
- border:solid 1px #005072; 
+ /*border:solid 1px #fff; /* #005072 */ 
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px 'OpenSansBold', sans-serif;  
  color:#e5ffff; 
  background:#eddc26; 
  -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
@@ -1618,12 +1616,11 @@ table.tariffs_table span{
 
  #feedback_button:active{
  padding:14px 53px; 
- border:solid 1px #005072; 
+ border:solid 1px #d5d5d5; 
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
  border-radius: 5px; 
- font:20px Tahoma, Geneva, sans-serif; 
- font-weight:bold; 
+ font:20px 'OpenSansBold', sans-serif; 
  color:#e5ffff; 
  background-color: #d8c400;
  -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
