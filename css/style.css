@@ -2452,11 +2452,20 @@ table.tariffs_table span{
         padding-right: 10px;
     }
 
+    #tariffs_row_5_right_3 {
+      width: 300px;
+      height: 100%;
+    }
+
     #tariffs_row_5_right_3 img {
       position: absolute;
-      top: 342px;
+      top: 371px;
       left: 1px;
       width: 300px;
+    }
+
+    #tariffs_row_5{
+      max-height: 1205px;
     }
    /*------------------------------------------*/
 
