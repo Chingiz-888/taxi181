@@ -350,6 +350,22 @@ header ul li a:hover, footer ul li a:hover {
   background-color: #e6c003;
 }
 
+
+
+#services_row_1 {
+  height: 455px;
+  background: #fff;
+  background-image: url(../pics/services.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover; 
+}
+
+.services_icons_black {
+  background-color: #282828;
+}
+
 #uslugi {
   float: left;
   width: 100%;
@@ -364,14 +380,17 @@ header ul li a:hover, footer ul li a:hover {
   float: left;
   position: relative;
   width: 100%;
-  height: 228px;
-  margin-bottom: 95px;
+  /*height: 228px;*/
+  height: 179px;
+  /*margin-bottom: 95px;*/
+  margin-bottom: 30px;
   color: #fff;
   font-family: 'OpenSansBold';
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  padding: 112px 20px 20px 20px;
+  /*padding: 112px 20px 20px 20px;*/
+  padding: 77px 20px 20px 20px;
   -webkit-transition: color(0.2s);
   transition: color(0.2s);
 }
@@ -739,6 +758,16 @@ table.tariffs_table span{
 }
 .special_td_1{
   width: 172px;
+}
+
+#tariffs_long_table_1,
+#tariffs_long_table_2,
+#tariffs_long_table_3{
+  display: none;
+}
+
+.airport {
+  display: none;
 }
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
 
@@ -2195,6 +2224,23 @@ table.tariffs_table span{
        padding-left: 3%;
    }
 
+
+  /* Уменьшаем иконки */
+  #tariffs .item {
+    height: 300px;
+  }
+  #tariffs h3 {
+      color: #3f3f3f;
+      margin-bottom: 12px;
+      display: block;
+      margin-top: -20px;
+  }
+  #tariffs .item p {
+      height: 18%;
+  }
+
+
+
     #license_first_row {
       margin-top: 0px;
     }
@@ -2298,6 +2344,124 @@ table.tariffs_table span{
   #about_div_2 .license_line_wrapper{
     margin-left: -24px;
   }
+
+
+   /*-- Уменьшение таблиц на странице ТАРИФЫ --*/
+   .tariffs_announce {
+      margin-top: 30px;
+      margin-bottom: 27px;
+      text-align: center;
+   }
+   .tariffs_announce span {
+      font-size: 15px;
+    }
+   .tariffs_table_div {
+    width: 300px;
+    /*margin: 10px auto;*/
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    }
+      table.tariffs_table {
+        width: 300px;
+        font-size: 6px;
+    }   
+    .tariffs_table > thead > tr > th, .tariffs_table > tbody > tr > th, .tariffs_table > thead > tr > td, .tariffs_table > tbody > tr > td {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 0px;
+        padding-left: 2px;
+        vertical-align: middle;
+    }
+    table.tariffs_table th {
+        font-size: 7px;
+    } 
+    .special_td_1 {
+        width: auto !important;
+    }
+    .td_left {
+        text-align: left !important;
+        padding-left: 2px !important;
+        font-size: 7px !important;
+    } 
+    table.tariffs_table span {
+        font-size: 7px;
+    } 
+    .bottom_table_div {
+        height: 27px;
+        line-height: 27px;
+        font-size: 7px;
+    }
+
+    #column_left_specail {
+    padding-right: 0px !important;
+  }
+      
+      
+    #tariffs_row_1,
+    #tariffs_row_2,
+    #tariffs_row_3,
+    #tariffs_row_4,
+    #tariffs_row_5,
+    #tariffs_row_6 {
+        min-height: initial;
+        height: auto !important;  
+    }
+
+    #tariffs_long_table_0 {
+      display: none;
+    }
+
+    #tariffs_long_table_1,
+    #tariffs_long_table_2,
+    #tariffs_long_table_3{
+      display: block;
+    }
+    .airport{
+      display: block;
+      font-size: 15px;
+      font-family: 'OpenSansLight';
+    }
+    #tariffs_row_5_left_1 {
+        width: 100%;
+        font-size: 15px;
+    }
+    #tariffs_row_5_right_1 {
+        width: 100%;
+        height: 82px;
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 15px;
+    }
+    #tariffs_row_5_left_2 {
+        width: 100%;
+        padding: 11px 10px 11px 0;
+        color: #2b2c2f;
+        font-size: 15px;
+        text-align: left;
+    }
+    #tariffs_row_5_left_3 {
+        width: 100%;
+        height: 260px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #tariffs_row_5_right_3 img {
+      position: absolute;
+      top: 342px;
+      left: 1px;
+      width: 300px;
+    }
+   /*------------------------------------------*/
+
+
+
 
 }/* ==== */
 
