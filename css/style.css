@@ -360,6 +360,7 @@ header ul li a:hover, footer ul li a:hover {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover; 
+  z-index: -9999;
 }
 
 .services_icons_black {
@@ -2533,36 +2534,26 @@ table.tariffs_table span{
   #tariffs .item p {
       height: 18%;
   }
-
-
-
     #license_first_row {
       margin-top: 0px;
     }
-
-
       .license_line_wrapper,
       .license_line {
           width: 310px !important;
     }
-
     .license_line_inner2 {
     width: 263px !important;
   }
-
   #license_third_row_announcement {
       margin-top: 0 !important;
   }
-
  #license_third_row_block {
     padding-top: 50px; 
   }
-
   #license_third_row_announcement span {
     font-size: 25px;
     margin-top: -20px;
   }
-
   #license_announce span:nth-child(2){
     font-size: 35px;
   }
@@ -2570,7 +2561,6 @@ table.tariffs_table span{
   #license_second_row_announcement span:nth-child(1) {
     font-size: 21px !important;
   }
-
   #license_announce span:nth-child(1), 
   #license_announce span:nth-child(3), 
   #license_second_row_announcement span:nth-child(2), 
@@ -2581,6 +2571,46 @@ table.tariffs_table span{
     #license_second_row_announcement span:nth-child(3) {
       margin-top: 100px;
    }
+
+/*-- на странице получение лицензии блок кнопки */
+  #license_fourth_row {
+      padding: 0;
+  }
+  #license_fourth_row_block {
+      padding-top: 50px;
+      text-align: left;
+  }
+  #license_fourth_row_block span:nth-child(1) {
+      font-size: 34px;
+      line-height: 40px;
+  }
+  #license_fourth_row_block span:nth-child(2) {
+      font-size: 22px;
+      display: block;
+      margin-bottom: 20px;
+  }
+  #license_fourth_row_block2 {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+      text-align: left;
+  }
+  #license_fourth_row_block2 p:nth-child(2) {
+      font-size: 34px
+  }
+  #license_button {
+      width: 100%;
+  }
+/*---*/
+
+
+
+
+
+
+
+
+
 
 
   .div-table-contacts {
