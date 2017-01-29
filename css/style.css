@@ -3059,3 +3059,24 @@ table.tariffs_table span{
   }
 
 
+
+
+
+
+
+#make_order_btn{
+  position: fixed;
+  top: 40%;
+  right: -103px;
+  background-color: #f2ca00;
+  border: 0;
+  font-size: 25px;
+  font-family: 'OpenSansBold';
+  transition: 1.0s, ease-out;
+  z-index: 20;
+}
+
+#make_order_btn:hover {
+  right: 10px;
+}
+
