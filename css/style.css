@@ -1968,8 +1968,24 @@ table.tariffs_table span{
 /*====================== МЕДИАЗАПРОСЫ ======================== */
 @media (max-width: 1700px) {
     .nav-phone {
-      display: none !important;
+      /*display: none !important;*/
     }
+    .nav-phone  a {
+    }
+
+    /*-- ужимаем верхнее меню --*/
+    #custom-nav-container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .nav-logo {
+        margin-left: -10px !important;
+      }
+    .navbar-nav > li {
+        margin-right: 20px !important;
+      }
+     /*-------*/ 
+  /*----*/
 }
 
 
@@ -1978,16 +1994,18 @@ table.tariffs_table span{
       #license_second_row_announcement2{
         width: 700px;
       }
-
-    /*--ужатие верхнего меню--*/  
-    .navbar-nav > li:nth-child(9) a {
-        margin-right: 0 !important;
-        color: red !important;
-    } 
-     .navbar-nav > li:nth-child(9)  {
-        margin-right: -10px;
+      /*-- ужимаем верхнее меню --*/
+      .navbar-nav > li  {
+          margin-right: 10px !important;
+      } 
+      .navbar-nav > li:nth-child(9) a {
+          margin-right: 0 !important;
+      } 
+       .navbar-nav > li:nth-child(9)  {
+          margin-right: -10px;
     } 
     /*------*/
+
 }/*--*/
 
 
@@ -1995,20 +2013,18 @@ table.tariffs_table span{
     #about_div_2 .license_line_inner2 {
       width: 330px;
     }
-      /*--ужатие верхнего меню--*/  
-    .navbar-nav > li  {
-        margin-right: 10px !important;
-    } 
-    .navbar-nav > li:nth-child(9) a {
-        margin-right: 0 !important;
-        color: red !important;
-    } 
-     .navbar-nav > li:nth-child(9)  {
-        margin-right: -10px;
-    } 
-    /*------*/
 }/*--*/
 
+@media (max-width: 1400px) {
+      /*-- ужимаем верхнее меню --*/
+      #custom-navbar-ul{
+        margin-left: 0 !important;
+      }
+       .navbar-nav > li {
+        margin-right: 5px !important;
+      }
+     /*------*/
+}/*--*/
 
 @media (max-width: 1362px) {    /*screen lower 1362px*/
 
@@ -2059,7 +2075,17 @@ table.tariffs_table span{
 }/* ==== */
 
 
+@media (max-width: 1350px) {
+      /*-- ужимаем верхнее меню --*/
+       .navbar-nav > li {
+        margin-right: 1px !important;
+      }
+     /*------*/
+}
+
+
 @media (max-width: 1300px) {
+
 
    .wrapper_sm_carousel {
     top: 27% !important;
@@ -2121,6 +2147,9 @@ table.tariffs_table span{
     #column_left_specail {
     padding-right: 0px !important;
   }
+    .column_left {
+    padding-left: 5px !important;
+  }
       
       
     #tariffs_row_1,
@@ -2175,15 +2204,15 @@ table.tariffs_table span{
     }
 
     #tariffs_row_5_right_3 {
-      width: 300px;
-      height: 100%;
+        width: 300px;
+        height: 100%;
     }
 
     #tariffs_row_5_right_3 img {
-      position: absolute;
-      top: 371px;
-      left: 1px;
-      width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 149px;
+        width: 509px;
     }
 
     #tariffs_row_5{
@@ -2476,9 +2505,9 @@ table.tariffs_table span{
 
     #tariffs_row_5_right_3 img {
       position: absolute;
-      top: 371px;
-      left: 1px;
-      width: 300px;
+      top: 172px;
+      left: 14px;
+      width: 409px;
     }
 
     #tariffs_row_5{
@@ -2828,6 +2857,9 @@ table.tariffs_table span{
     #column_left_specail {
     padding-right: 0px !important;
   }
+  .column_left {
+    padding-left: 3px !important;
+  }
       
       
     #tariffs_row_1,
@@ -2936,4 +2968,5 @@ table.tariffs_table span{
   z-index: 1000;
   text-align: center;
 }
+
 
