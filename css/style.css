@@ -353,14 +353,14 @@ header ul li a:hover, footer ul li a:hover {
 
 /*== СТРАНИЦА НАШИ УСЛУГИ ==*/
 #services_row_1 {
-  min-height: 455px;
+  min-height: 484px;
   background: #fff;
   background-image: url(../pics/services.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover; 
-  z-index: -9999;
+  z-index: 10;
 }
 
 .services_icons_black {
@@ -461,12 +461,13 @@ header ul li a:hover, footer ul li a:hover {
   float: left;
   width: 100%;
   background-color: #282828;
-  margin-bottom: 90px;
+  margin-bottom: 0;
 }
 #tariffs h2 {
   text-align: center;
   color: #f2ca00;
-  padding-bottom: 18px;
+  padding-bottom: 29px;
+  padding-top: 4px;
 }
 #tariffs h3 {
   color: #3f3f3f;
