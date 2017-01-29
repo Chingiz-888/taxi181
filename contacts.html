@@ -64,8 +64,8 @@
 						<div class="div-table-row">
 							<div class="div-table-col-contacts-img"><img src="img/icons/contacts/location.svg"></div>
 							<div class="div-table-col-contacts table-text-contacts">
-								<p><span>Адрес</span><br/> ул. Трофимова д.5А, 2ой этаж, офис №1 Москва, Россия 11543</p>
-							
+								<p><span>Адрес</span><br/>Москва, ул. Трофимова дом 2А, подъезд № 1, 1-ый этаж, офис 101</p>
+							    <!-- ул. Трофимова д.5А, 2ой этаж, офис №1 Москва, Россия 11543 -->
 							</div>
 						</div>
 					</div><!-- /table-->
@@ -220,7 +220,8 @@
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
 	</script><!-- здесь сама карта по id = Map_yandex1, центр карты 55.751574, 37.573856 остальное на сайте https://tech.yandex.ru/maps/jsbox/2.1/-->
 	<script>
-	$(function () {window.Place=null;ymaps.ready(function () {var myMap = new ymaps.Map('YandexMap', {center: [55.703454, 37.664644],zoom: 15},{searchControlProvider: 'yandex#search'});Place = new ymaps.Placemark([55.703454, 37.664644],{balloonContent: 'Мы находимся здесь'},{preset: 'islands#icon',iconColor: '#1D1AB2'});myMap.geoObjects.add(Place);myMap.events.add('click', function (e) {myMap.geoObjects.add(Place);$('#PositionX').val(coords[0].toPrecision(6));$('#PositionY').val(coords[1].toPrecision(6));});});})
+	$(function () {window.Place=null;ymaps.ready(function () {var myMap = new ymaps.Map('YandexMap', {center: [55.703454, 37.664644],zoom: 15},{searchControlProvider: 'yandex#search'});Place = new ymaps.Placemark([55.702454, 37.662295],{balloonContent: 'Москва, ул. Трофимова дом 2А, подъезд № 1, 1-ый этаж, офис 101'},{preset: 'islands#icon',iconColor: '#1D1AB2'});myMap.geoObjects.add(Place);myMap.events.add('click', function (e) {myMap.geoObjects.add(Place);$('#PositionX').val(coords[0].toPrecision(6));$('#PositionY').val(coords[1].toPrecision(6));});});});
+  //55.703454, 37.664644
 </script>
 
 </body>

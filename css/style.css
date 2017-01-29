@@ -1838,7 +1838,12 @@ table.tariffs_table span{
   margin-top: 0;
   margin-bottom: 0px;
   padding: 0;
+  margin-left: 0;
+  margin-right: 0;
   color: #2e2e2e;
+}
+#contacts_row_2 div {
+  padding: 0;
 }
 
 #contacts_row_3{
@@ -3052,4 +3057,5 @@ table.tariffs_table span{
     width: 20%;
     display: inline-block;
   }
+
 
