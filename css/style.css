@@ -369,8 +369,14 @@ header ul li a:hover, footer ul li a:hover {
 
 #uslugi {
   float: left;
+  background-image: url(../pics/services.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover; 
   width: 100%;
   padding-top: 90px;
+  z-index: -9999;
 }
 #uslugi h2 {
   text-align: center;
@@ -770,7 +776,12 @@ table.tariffs_table span{
 
 .airport {
   display: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+.tariffs_announce span {
+    text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+  }
 /* ------------ те самые длинные таблицы с тарифами -----------------*/
 
 
@@ -1672,14 +1683,19 @@ table.tariffs_table span{
 #aboutpage_row_1{
   color: #2e2e2e;
   background: #fff;
+  background-image: url(../pics/services.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover; 
+  z-index: 10;
   min-height: 522px;
   z-index: 1;
   text-align: center;
 }
 
 #aboutpage_row_2{
-  margin-top: 5px;
-    color: #2e2e2e;
+  color: #2e2e2e;
   background-image: url(../pics/about-big.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -2142,9 +2158,13 @@ table.tariffs_table span{
     .tariffs_table > thead > tr > th, .tariffs_table > tbody > tr > th, .tariffs_table > thead > tr > td, .tariffs_table > tbody > tr > td {
         padding-top: 2px;
         padding-bottom: 2px;
-        padding-right: 0px;
-        padding-left: 2px;
+        padding-right: 31px;
+        padding-left: 31px;
         vertical-align: middle;
+    }
+    .tariffs_table > thead > tr > th,
+    .tariffs_table > tbody > tr > th{
+      width: 219px;
     }
     table.tariffs_table th {
         font-size: 13px;
@@ -2978,6 +2998,11 @@ table.tariffs_table span{
 /* Решение проблемы с иконками услуг */
 .services_icons {
   padding: 0;
+  z-index: 20;
+}
+
+.services_icons:hover{
+  z-index: 30;
 }
 
 
