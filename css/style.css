@@ -369,11 +369,6 @@ header ul li a:hover, footer ul li a:hover {
 
 #uslugi {
   float: left;
-  background-image: url(../pics/services.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  -webkit-background-size: cover;
-  background-size: cover; 
   width: 100%;
   padding-top: 90px;
   z-index: -9999;
@@ -2007,6 +2002,88 @@ table.tariffs_table span{
 
 
 
+
+/*===== СТРАНИЦА  ПОДКЛЮЧЕНИЕ К YANDEXTAXI =========*/
+#yandextaxi_row_1{
+  color: #2e2e2e;
+  background-image: url(../pics/yandextaxi_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 671px;
+  z-index: 1;
+  text-align: center;
+}
+
+#yandextaxi_row_2{
+  min-height: 494px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  color: #2e2e2e;
+}
+#yandextaxi_row_2 div {
+  padding: 0;
+}
+
+#yandextaxi_row_3{
+  background-image: url(../pics/yandextaxi_3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 359px;
+  margin-bottom: 93px;
+}
+
+#yandextaxi_row_1_announce{
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 1025;
+  height: 210px;
+  margin: 0 auto;
+  margin-top: 68px;
+  margin-bottom: 84px;
+}
+
+#yandextaxi_row_1_announce span {
+  display: block;
+  font-family: OpenSansBold, sans-serif;
+  font-size: 37px;
+}
+#yandextaxi_row_1_announce span:first-child {
+    padding-top: 29px;
+    text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
+}
+#yandextaxi_row_1_announce span:last-child {
+    font-size: 57px;
+    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+}
+#yandextaxi_row_1_announce p,
+#yandextaxi_row_2_announce p {
+  display: inline-block;
+}
+.light_red {
+  color: #f11c0c;
+}
+
+#yandextaxi_row_2_announce span {
+  display: block;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 99px;
+}
+/*===============================*/
+
+
+
+
+
+
+
+
 /*====================== МЕДИАЗАПРОСЫ ======================== */
 @media (max-width: 1779px) {
 
@@ -2279,7 +2356,7 @@ table.tariffs_table span{
     }
 
     #tariffs_row_5{
-      height: 1193px !important;
+      height: 1003px !important;
     }
 
 
@@ -2482,6 +2559,7 @@ table.tariffs_table span{
         padding-right: 0px;
         padding-left: 2px;
         vertical-align: middle;
+        width: auto;
     }
     table.tariffs_table th {
         font-size: 13px;
@@ -2570,7 +2648,7 @@ table.tariffs_table span{
     }
 
     #tariffs_row_5{
-      height: 1193px !important;
+      height: 1030px !important;
     }
 
     .footer_bottom_menu > ul > li {
@@ -2581,16 +2659,6 @@ table.tariffs_table span{
 
  }/*====*/
 
-
-  @media (max-width: 768px) {   /*font lower 768px*/
-      #license_third_row_announcement, 
-      #license_third_row_block {
-          padding-bottom: 0px !important;
-      }
-      #license_third_row_announcement {
-        margin-top: -105px;
-      }
-  }/*=====*/
 
 
   @media (max-width: 800px) {
@@ -2637,6 +2705,28 @@ table.tariffs_table span{
 
 
   }/*=====*/
+
+
+  
+  @media (max-width: 768px) {   /*font lower 768px*/
+      #license_third_row_announcement, 
+      #license_third_row_block {
+          padding-bottom: 0px !important;
+      }
+      #license_third_row_announcement {
+        margin-top: -105px;
+      }
+
+        .td_left,
+      .td_right {
+        width: 130px !important;
+      }
+      .td_right {
+        padding-right: 0px !important;
+        text-align: left !important;
+      }
+  }/*=====*/
+
 
 
 
@@ -2687,6 +2777,16 @@ table.tariffs_table span{
   #tariffs .item p {
       height: 18%;
   }
+  .td_left,
+  .td_right {
+    width: 100px !important;
+  }
+  .td_right {
+    padding-right: 0px !important;
+    text-align: left !important;
+  }
+
+
     #license_first_row {
       margin-top: 0px;
     }
