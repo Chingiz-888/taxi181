@@ -2017,6 +2017,8 @@ table.tariffs_table span{
 }
 
 #yandextaxi_row_2{
+  display: flex;
+  align-items: center;
   min-height: 494px;
   margin-top: 0;
   margin-bottom: 0px;
@@ -2041,10 +2043,10 @@ table.tariffs_table span{
 
 #yandextaxi_row_1_announce{
   background-color: rgba(255, 255, 255, 0.9);
-  width: 1025;
+  width: 1025px;
   height: 210px;
   margin: 0 auto;
-  margin-top: 68px;
+  margin-top: 215px;
   margin-bottom: 84px;
 }
 
@@ -2073,7 +2075,84 @@ table.tariffs_table span{
   display: block;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 99px;
+}
+
+
+.yandextaxi_line_wrapper{
+  width: 702px;
+  height: 75px;
+}
+
+.yandextaxi_line:first-child{
+  margin-top: 0px;
+}
+
+.yandextaxi_line{
+  /*border: red solid 1px;*/
+  width: 702px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+#yandextaxi_line_inner1_1 {
+  background-color: #f11c0c;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  display: inline-block;
+  position: relative;
+}
+#yandextaxi_line_inner1_2 {
+  background-color: #edd507;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  display: inline-block;
+  position: relative;
+}
+#yandextaxi_line_inner1_3 {
+  background-color: #63c522;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  display: inline-block;
+  position: relative;
+}
+
+#yandextaxi_line_inner1_1 img,
+#yandextaxi_line_inner1_2 img{
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 47px;
+  height: 30px;
+}
+#yandextaxi_line_inner1_3 img {
+  position: absolute;
+  left: 1px;
+  top: 9px;
+  width: 59px;
+  height: 39px;
+}
+
+.yandextaxi_line_inner2{
+  width: auto;
+  height: 63px;
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.yandextaxi_line_inner2 p{
+  display: inline;
+}
+.yandextaxi_line_inner2 p:nth-child(1){
+  font-weight: 400;
+}
+.yandextaxi_line_inner2 p:nth-child(2){
+  font-weight: 700;
 }
 /*===============================*/
 
@@ -2657,6 +2736,12 @@ table.tariffs_table span{
       margin-bottom: 20px;
     }
 
+    .bottom_table_div { 
+    height: 36px;
+    line-height: 17px;
+    font-size: 12px;
+  }
+
  }/*====*/
 
 
@@ -3032,7 +3117,7 @@ table.tariffs_table span{
     } 
     .bottom_table_div {
         height: 27px;
-        line-height: 27px;
+        line-height: 13px;
         font-size: 7px;
     }
 
