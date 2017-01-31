@@ -46,7 +46,7 @@ body {
 }
 
 h2 {
-  font-size: 58px;
+  font-size: 50px;
   font-weight: normal;
   font-family: 'OpenSansBold';
 }
@@ -290,11 +290,11 @@ header ul li a:hover, footer ul li a:hover {
 }
 
 .carousel-main-wrapper {
-  height: 484px;
+  height: 382px;
 }
 .carousel-main-wrapper .slick-track,
 .carousel-main-wrapper .slick-slide {
-  height: 575px !important;
+  height: 382px !important;
 }
 .carousel-main-wrapper .carousel .wrapper {
   font-size: 50px;
@@ -311,11 +311,11 @@ header ul li a:hover, footer ul li a:hover {
 }
 
 .carousel-secondary-wrapper {
-  height: 374px;
+  height: 300px;
 }
 .carousel-secondary-wrapper .slick-track,
 .carousel-secondary-wrapper .slick-slide {
-  height: 374px !important;
+  height: 302px !important;
 }
 .carousel-secondary-wrapper .carousel .wrapper {
   font-size: 36px;
@@ -371,16 +371,28 @@ header ul li a:hover, footer ul li a:hover {
   background-color: #282828;
 }
 
-#uslugi {
-   background-image: url(../pics/services.jpg);
+#services_row_1 > #uslugi > .wrapper > h2 {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'OpenSansBold';
+    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+}
+
+.main-uslugi{
+  background-image: url(../pics/services.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover; 
+}
+
+#uslugi {
   z-index: 10;
   float: left;
   width: 100%;
-  padding-top: 90px;
+  padding-top: 0;
   z-index: -9999;
 }
 #uslugi h2 {
@@ -477,8 +489,8 @@ header ul li a:hover, footer ul li a:hover {
 #tariffs h2 {
   text-align: center;
   color: #f2ca00;
-  padding-bottom: 29px;
-  padding-top: 4px;
+  padding-bottom: 28px;
+  padding-top: 10px;
 }
 #tariffs h3 {
   color: #3f3f3f;
@@ -597,7 +609,7 @@ header ul li a:hover, footer ul li a:hover {
 }
 
 .tariffs_announce{
-  margin-top: 68px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -1531,7 +1543,7 @@ table.tariffs_table span{
 }
 
 #feedback_row_1_announce{
-  margin-top: 85px;
+  margin-top: 70px;
   margin-bottom: 36px;
 }
 
@@ -1741,8 +1753,12 @@ table.tariffs_table span{
   margin-bottom: 50px;
 }
 
+#aboutpage_row_1 h2{
+  font-size: 40px;
+}
+
 #aboutpage_row_1_announce{
-  margin-top: 68px;
+  margin-top: 70px;
 }
 
 #aboutpage_row_1_announce span {
@@ -2827,7 +2843,7 @@ table.tariffs_table span{
   @media (max-width: 500px) {   /*font lower 500px*/
     /* карусели на главной */
      .wrapper_sm_carousel {
-        top: 20% !important;
+        top: 33% !important;
     }
     .wrapper_sm_carousel .wrapper {
         font-size: 25px !important;
