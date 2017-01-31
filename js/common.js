@@ -21,12 +21,11 @@
               $(".navbar-nav").css({"margin-top": "25px"});
               $(".nav-logo").css({"display":"none"});
               $("#nav-logo-li").css({"display":"none"});
-
                //$("main").css("paddingTop","385px");
             } else {
               $(navbar).addClass("collapse"); 
               $(navbar).attr("aria-expanded", "false");
-              $("#whole-navbar-wrapper").css({"height" : "73px"});
+              $("#whole-navbar-wrapper").css({"height" : "60px"});
               $("#myNavbar>ul").css({"margin-top" : "10px", "margin-left" : "10px", "font-size" : "21px" });
               $("#myNavbar>ul>li").css({"display" : "inline", "width" : "90px"});
               $(".navbar-nav").css({"margin-top": "0px"});

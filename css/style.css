@@ -363,11 +363,21 @@ header ul li a:hover, footer ul li a:hover {
   z-index: 10;
 }
 
+#services_row_2 {
+  padding: 0;
+}
+
 .services_icons_black {
   background-color: #282828;
 }
 
 #uslugi {
+   background-image: url(../pics/services.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover; 
+  z-index: 10;
   float: left;
   width: 100%;
   padding-top: 90px;
@@ -479,7 +489,7 @@ header ul li a:hover, footer ul li a:hover {
   height: 350px;
   background-color: #fff;
   padding: 0;
-  width: 33%;
+  width: 33.33%;
   box-sizing: border-box;
   float: left;
 }
@@ -2456,7 +2466,6 @@ table.tariffs_table span{
     .nav-logo {
       display: none;
     }
-
      #nav-logo{
       float:left;
       display: block !important;

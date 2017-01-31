@@ -1,7 +1,7 @@
  #nav-logo{
  	 	float:left;
     display: none;
-    margin-top: 5px;
+    margin-top: 0px;
  }
 
  .nav-logo {
@@ -15,14 +15,13 @@
  margin-top: -10px;
 }
 
-  
-
 
  .navbar {
     position: relative;
     margin-bottom: 0px;
     border: 1px solid transparent;
-    height: 72px;
+    height: 60px;
+    min-height: 60px;
   } 
 
  #nav-wrapper {
@@ -44,19 +43,12 @@
 }
 .navbar-nav > li {
     float: left;
-    margin-top: 9px;
+    margin-top: 3px;
     margin-right: 40px;
 }
-
 .navbar-nav > li:last-child {
     margin-right: 0;
 }
-
-
-
-
-
-
 
 
 .nav-right-column {
@@ -65,11 +57,9 @@
   position: relative;
   top: -17px; 
  }
-
-
  .navbar-toggle {
 	  position: absolute;
-    top: 37px;
+    top: 29px;
 	  right: 22px;
     background-color: transparent;
     background-image: none;
