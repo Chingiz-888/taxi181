@@ -2213,7 +2213,8 @@ table.tariffs_table span{
   font-size: 35px;
   font-weight: 700;
   margin-top: 23px;
-  padding-left: 10px;
+  padding-left: 4px;
+  padding-right: 0px;
 }
 
 
@@ -3693,7 +3694,14 @@ table.tariffs_table span{
 
 
 
+.form-control::-webkit-input-placeholder { color: #7b7b7b;  font-size: 20px;}
+.form-control:-moz-placeholder { color: #7b7b7b; font-size: 20px;}
+.form-control::-moz-placeholder { color: #7b7b7b; font-size: 20px;}
+.form-control:-ms-input-placeholder { color: #7b7b7b; font-size: 20px;}
 
+#inputName, #inputPhone {
+  font-size: 20px;
+}
 
 
 
