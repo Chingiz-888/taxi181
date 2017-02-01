@@ -1128,7 +1128,9 @@ table.tariffs_table span{
  filter: dropshadow(color=#bababa, offx=3, offy=-1);}
 
 
-
+ .yandextaxi_btn#license_button {
+      padding: 14px 42px;
+ }
 
 
 
@@ -1754,7 +1756,7 @@ table.tariffs_table span{
 }
 
 #feedback_button {text-decoration:none; text-align:center; 
- padding:14px 53px; 
+ padding: 14px 32px;
  margin-top: 30px;
  margin-bottom: 30px;
  border:solid 1px #e7d31d; 
@@ -1781,7 +1783,7 @@ table.tariffs_table span{
  transition:  background 0s ease-out;}
 
  #feedback_button:hover{
- padding:14px 53px; 
+ padding: 14px 32px;
  /*border:solid 1px #fff; /* #005072 */ 
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
@@ -1797,7 +1799,7 @@ table.tariffs_table span{
  filter: dropshadow(color=#bababa, offx=3, offy=-1);}
 
  #feedback_button:active{
- padding:14px 53px; 
+ padding: 14px 32px;
  border:solid 1px #d5d5d5; 
  -webkit-border-radius:5px;
  -moz-border-radius:5px; 
@@ -2758,12 +2760,9 @@ table.tariffs_table span{
     height: 40px !important;
   }
   .license_line_inner1 span {
-    position: absolute;
-    left: 15px !important;
-    top: 4px !important;
-    font-size: 21px !important;
+    left: 12px;
+    top: -1px;
   }
-
   /* Уменьшаем шрифты */
   #license_announce span:nth-child(1){
     margin-bottom: initial;
@@ -3265,6 +3264,26 @@ table.tariffs_table span{
           font-size: 35px;
         }
        /*--------------------------------*/
+
+       #aboutpage_row_2_announce span:nth-child(1) {
+          font-size: 30px !important;
+      }
+      #aboutpage_row_2 {
+          padding: 0px !important;
+      }
+      #about_white_div {
+          padding: 0px !important;
+      }
+      #about_white_div {
+        padding: 0px !important;
+      }
+      #about_div_2 .license_line {
+        margin-left: 7px;
+      }
+      .license_line_inner1 span {
+        left: 8px !important;
+        top: -6px !important;
+    }
   }/*=========*/
 
 
@@ -3380,9 +3399,7 @@ table.tariffs_table span{
       float: none;
       width: 100%;
   }
-  #about_white_div {
-      padding: 5px !important;
-  }
+ 
 
   #aboutpage_row_2_announce {
       width: auto !important;
@@ -3400,12 +3417,7 @@ table.tariffs_table span{
       margin: 0px !important;
   }
 
-  .license_line_inner1 span {
-      position: absolute;
-      left: 11px !important;
-      top: 1px !important;
-      font-size: 21px !important;
-  }
+
 
   .license_line_wrapper, .license_line {
       width: auto !important;
