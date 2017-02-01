@@ -380,7 +380,7 @@ header ul li a:hover, footer ul li a:hover {
     margin-bottom: 45px;
 }
 
-.main-uslugi{
+.main-uslugi.real-main{
   background-image: url(../pics/services.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -440,6 +440,9 @@ header ul li a:hover, footer ul li a:hover {
   fill:red;
 }
 
+ #mobile-custom-carousel {
+  display: none;
+ }
 
 
 
@@ -1172,6 +1175,105 @@ table.tariffs_table span{
   padding-left: 9px;
   margin-right: 0px;
 }
+
+
+
+#make_order_btn{
+  position: fixed;
+  top: 40%;
+  right: -103px;
+  background-color: #f2ca00;
+  border: 0;
+  font-size: 25px;
+  font-family: 'OpenSansBold';
+  transition: 1.0s, ease-out;
+  z-index: 20;
+}
+
+#make_order_btn:hover {
+  right: 10px;
+}
+
+
+
+#order_now_btn_wrapper {
+  width: 100%;
+  border: 0px red solid;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+}
+
+
+
+
+#order_now_btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 388px;
+    height: 52px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    border: solid 1px #e7d31d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font: 24px 'OpenSansBold', Arial;
+    color: #2e2e2e;
+    background-color: #ffef42;
+    background-image: -moz-linear-gradient(top, #ffef42 0%, #e7d31d 100%);
+    background-image: -webkit-linear-gradient(top, #ffef42 0%, #e7d31d 100%);
+    background-image: -o-linear-gradient(top, #ffef42 0%, #e7d31d 100%);
+    background-image: -ms-linear-gradient(top, #ffef42 0% ,#e7d31d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7d31d', endColorstr='#e7d31d',GradientType=0 );
+    background-image: linear-gradient(top, #ffef42 0% ,#e7d31d 100%);
+    -webkit-box-shadow: 0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;
+    -moz-box-shadow: 0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;
+    box-shadow: 0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;
+    text-shadow: -2px -1px 6px #bababa;
+    filter: dropshadow(color=#bababa, offx=-2, offy=-1);
+    -webkit-transition: background 0s ease-out;
+    -moz-transition: background 0s ease-out;
+    -o-transition: background 0s ease-out;
+    transition: background 0s ease-out;
+}
+
+
+#order_now_btn:hover{
+   width: 388px;
+   height: 52px;
+   border:solid 1px #e7d31d; 
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px; 
+   border-radius: 5px; 
+   font: 24px 'OpenSansBold', Arial;  
+   color:#e5ffff; 
+   background:#eddc26; 
+   -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
+   -moz-box-shadow: 0px 0px 2px #eddc26,  inset 0px 0px 1px #eddc26;  
+   box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;  
+   text-shadow: 3px -1px 6px #bababa; 
+   filter: dropshadow(color=#bababa, offx=3, offy=-1);
+ }
+
+ #order_now_btn:active{
+   width: 388px;
+   height: 52px;
+   border: solid 1px #e7d31d;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px; 
+   border-radius: 5px; 
+   font: 24px 'OpenSansBold', Arial;
+   color:#e5ffff; 
+   background-color: #d8c400;
+   -webkit-box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26; 
+   -moz-box-shadow: 0px 0px 2px #eddc26,  inset 0px 0px 1px #eddc26;  
+   box-shadow:0px 0px 2px #eddc26, inset 0px 0px 1px #eddc26;  
+   text-shadow: 3px -1px 6px #bababa; 
+   filter: dropshadow(color=#bababa, offx=3, offy=-1);
+}
+
 
 
 
@@ -2054,7 +2156,6 @@ table.tariffs_table span{
   color: #2e2e2e;
 }
 #yandextaxi_row_2 div {
-  padding: 0;
 }
 
 #yandextaxi_row_3{
@@ -2065,6 +2166,9 @@ table.tariffs_table span{
   background-size: cover;
   min-height: 359px;
   margin-bottom: 93px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 #yandextaxi_row_1_announce{
@@ -2097,6 +2201,12 @@ table.tariffs_table span{
   color: #f11c0c;
 }
 
+.light_small_white {
+  font-size: 25px;
+  font-family: 'OpenSansBold';
+  margin-top: 24px;
+}
+
 #yandextaxi_row_2_announce span {
   display: block;
   font-size: 35px;
@@ -2105,8 +2215,15 @@ table.tariffs_table span{
 
 
 .yandextaxi_line_wrapper{
-  width: 702px;
-  height: 75px;
+  width: auto;
+  height: 101px;
+  margin-bottom: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.yandextaxi_line_wrapper.last{
+   margin-bottom: 0px;
 }
 
 .yandextaxi_line:first-child{
@@ -2115,12 +2232,12 @@ table.tariffs_table span{
 
 .yandextaxi_line{
   /*border: red solid 1px;*/
-  width: 702px;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  margin-top: 22px;
+  width: 100%;
+  height: auto;
+  margin-top: 47px;
 }
+
+
 #yandextaxi_line_inner1_1 {
   background-color: #f11c0c;
   border-radius: 50%;
@@ -2163,7 +2280,7 @@ table.tariffs_table span{
 }
 
 .yandextaxi_line_inner2{
-  width: auto;
+  width: 79%;
   height: 63px;
   display: inline-block;
   margin-left: 7px;
@@ -2171,14 +2288,51 @@ table.tariffs_table span{
   padding-left: 20px;
 }
 
-.yandextaxi_line_inner2 p{
-  display: inline;
+.yandextaxi_line_inner2 span:nth-child(1),
+.yandextaxi_line_inner2 span:nth-child(2),
+.yandextaxi_line_inner2 span:nth-child(3) {
+  display: block;
 }
-.yandextaxi_line_inner2 p:nth-child(1){
-  font-weight: 400;
+
+.yandextaxi_line_inner2 span:nth-child(1),
+.yandextaxi_line_inner2 span:nth-child(2) {
+  font-size: 20px;
 }
-.yandextaxi_line_inner2 p:nth-child(2){
-  font-weight: 700;
+
+.yandextaxi_line_inner2 span:nth-child(2) {
+  margin-top: 17px;
+}
+.yandextaxi_line_inner2 span:nth-child(3) {
+  font-size: 13px;
+  color: #7b7b7b;
+  margin-top: 0px;
+}
+
+.yandextaxi_form_wrapper {
+  display: block;
+  width: 100%;
+}
+.yandextaxi_form_label,
+.yandextaxi_form_input,
+.yandextaxi_form_input_submit {
+  display: inline-block;
+}
+.yandextaxi_form_label {
+  width: 150px;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  padding-top: 5px;
+}
+.yandextaxi_form_wrapper {
+  margin-bottom: 30px;
+}
+.yandextaxi_form_input.last{
+  margin-bottom: 0px;
+  padding-left: 150px;
+}
+.yandextaxi_form_input input {
+  width: 334px;
 }
 /*===============================*/
 
@@ -2546,6 +2700,32 @@ table.tariffs_table span{
 }/*=======*/
 
 
+@media (max-width: 1000px) {
+     /*-- на мобильных экранах - услуги по 2 ячейки --*/
+    .main-uslugi#uslugi .wrapper {
+      padding: 0px;
+      margin-left: 7px;
+      margin-right: 7px;
+      width: 97%;
+    }
+    .main-uslugi#uslugi  .services_icons {
+        width: 47%;
+        display: inline-block;
+        margin-left: 14px;
+        margin-right: 5px;
+    }
+    .main-uslugi#uslugi .item {
+      color: #fff;
+      font-family: 'OpenSansRegular';
+      text-align: center;
+      font-size: 17px;
+    }
+    .main-uslugi#uslugi  .services_icons.first-child{
+      width: 96.3%;
+    }
+}/*=========*/
+
+
 
 @media (max-width: 900px) {    /*font lower 900px*/
 
@@ -2813,7 +2993,25 @@ table.tariffs_table span{
       min-height: 267px;
     }
 
+    /*--  На мобильных экранах показываем только один слайдер 
+          и убираем старый                                    --*/
+    #mobile-custom-carousel {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+    .carousel-main-wrapper,
+    .half-sm-left {
+      display: none;
+    }
 
+    #mobile-custom-carousel .carousel .slick-dots {
+      left: calc(50% - 140px);
+      width: 163px;
+     }
+    .wrapper_sm_carousel {
+      font-family: 'OpenSansRegular' !important;
+     }
   }/*=====*/
 
 
@@ -2836,6 +3034,84 @@ table.tariffs_table span{
         text-align: left !important;
       }
   }/*=====*/
+
+
+  @media (max-width: 732px) {
+       /*-- на мобильных экранах - услуги по 2 ячейки --*/
+      .main-uslugi#uslugi .wrapper {
+          padding: 0px;
+          margin-left: 7px;
+          margin-right: 7px;
+          width: 97%;
+      }
+      .main-uslugi#uslugi  .services_icons {
+          width: 49%;
+          display: inline-block;
+          margin-left: 0px;
+          margin-right: 0px;
+      }
+      .main-uslugi#uslugi .item {
+          color: #fff;
+          font-family: 'OpenSansRegular';
+          text-align: center;
+          font-size: 17px;
+      }
+       .main-uslugi#uslugi  .services_icons.first-child{
+          width: 98%;
+      }
+      #order_now_btn,
+      #order_now_btn:hover,
+      #order_now_btn:active{
+        width: 100%;
+      }
+
+      #uslugi h2 {
+        text-align: left;
+        color: #3f3f3f;
+        padding: 30px;
+        font-size: 40px;
+        padding-left: 9px;
+      }
+      #tariffs h2 {
+        text-align: left;
+        font-size: 40px;
+        padding-left: 0px;
+      }
+      .wrapper2 {
+        margin: 0 auto;
+        width: 95%;
+      }
+      .class_variants.item{
+        position: relative;
+      }
+      .class_variants.item img {
+        position: absolute;
+        top: 16px;
+        left: 8px;
+        width: 100px !important;
+      }
+       .class_variants.item h3 {
+        position: absolute;
+        top: 0px;
+        left: 8px;
+        width: 100px !important;
+        font-size: 23px;
+      }
+      .class_variants.item p{
+        position: absolute;
+        top: 25px !important;
+        left: 123px !important;
+        width: 60% !important;
+        height: 15%;
+        font-size: 14px;
+        color: #3f3f3f;
+        font-family: 'OpenSansSemiBold';
+        text-align: left !important;
+      }
+      #tariffs .item {
+        height: 186px !important;
+      }
+  }/*=========*/
 
 
 
@@ -3026,13 +3302,14 @@ table.tariffs_table span{
     padding-left: 0 !important;
   }
 
+  .class_variants.item h3 {
+        top: 42px;
+  }
+  .class_variants.item p {
+    top: 26px !important;
+  }
+
 /*---*/
-
-
-
-
-
-
 
 
 
@@ -3223,6 +3500,11 @@ table.tariffs_table span{
    /*------------------------------------------*/
 
 
+  .wrapper_sm_carousel {
+      top: 20% !important;
+  }
+
+
 
 
 }/* ==== */
@@ -3233,8 +3515,15 @@ table.tariffs_table span{
 
 /* Решение проблемы с иконками услуг */
 .services_icons {
+  position: relative;
+  min-height: 1px;
+  width: calc(100% / 7);
+  width: -webkit-calc(100% / 7);
+  width: -moz-calc(100% / 7);
+  float: left;
   padding: 0;
   z-index: 20;
+  padding-left: 8px;
 }
 
 .services_icons:hover{
@@ -3307,19 +3596,6 @@ table.tariffs_table span{
 
 
 
-#make_order_btn{
-  position: fixed;
-  top: 40%;
-  right: -103px;
-  background-color: #f2ca00;
-  border: 0;
-  font-size: 25px;
-  font-family: 'OpenSansBold';
-  transition: 1.0s, ease-out;
-  z-index: 20;
-}
 
-#make_order_btn:hover {
-  right: 10px;
-}
+
 

@@ -13,6 +13,7 @@
             if ( $(navbar).attr("aria-expanded") === "false") { 
               $(navbar).removeClass("collapse");
               $(navbar).attr("aria-expanded", "true");
+              $(navbar).css({"width":"100%"});
               $("#whole-navbar-wrapper").css({"height" : "534px"});
               $("#myNavbar>ul").css({"margin-top" : "60px", "margin-left" : "10px", "font-size" : "21px" });
               $("#myNavbar>ul>li").css({"display" : "block", "width" : "100%" });
