@@ -2239,6 +2239,7 @@ table.tariffs_table span{
   width: 100%;
   height: auto;
   margin-top: 47px;
+  display: flex;
 }
 
 
@@ -2825,7 +2826,7 @@ table.tariffs_table span{
       text-align: center;
    }
    .tariffs_announce span {
-      font-size: 25px;
+      font-size: 35px;
     }
    .tariffs_table_div {
     width: 480px;
@@ -2956,8 +2957,8 @@ table.tariffs_table span{
         background-color: rgba(255, 255, 255, 0.9);
         position: absolute;
         bottom: 0px;
-        left: calc(50% - 49%);
-        width: 98%;
+        left: 0%;
+        width: 100%;
         height: 29%;
         margin-bottom: 0px;
     }
@@ -3018,10 +3019,10 @@ table.tariffs_table span{
       }
 
     .yandextaxi_line_wrapper.second {
-      height: 158px;
+      height: 132px;
     }
     .yandextaxi_line_wrapper.last {
-      height: 274px;
+      height: 138px;
     }
     .yandextaxi_form_input.last {
         margin-bottom: 0px;
@@ -3215,6 +3216,55 @@ table.tariffs_table span{
       #tariffs .item {
         height: 186px !important;
       }
+
+    
+      /*--- УЖИМКА КАРТИНОК ------------*/
+        #abstinent_row_1,
+        #corporatetaxi_row_1,
+        #yourowncar_row_1,
+        #cargo_first_row,
+        #courier_row_1 {
+           height: 303px;
+        }
+        #corporatetaxi_row_1 {
+          height: 303px;
+        }
+        #corporatetaxi_row_1_announce span,
+        #yourowncar_row_1_announce span, 
+        #abstinent_row_1_announce span,
+        #cargo_first_row_announce span,
+        #courier_row_1_announce span {
+          font-size: 35px;
+          text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+        }
+        #corporatetaxi_row_1_announce,
+        #yourowncar_row_1_announce, 
+        #abstinent_row_1_announce,
+        #cargo_first_row_announce,
+        #courier_row_1_announce {
+          margin-top: 153px;
+        }
+        #feedback_row_1_announce span {
+          font-size: 35px;
+        }
+        #contacts_row_1_announce span {
+          font-size: 35px;
+          text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+        }
+        #aboutpage_row_1_announce span {
+          font-family: OpenSansBold, sans-serif;
+          font-size: 35px;
+        }
+        #uslugi h2 {
+          font-size: 35px;
+        }
+        #aboutpage_row_2_announce span:nth-child(1) {
+          font-size: 35px
+        }
+        #tariffs h2 {
+          font-size: 35px;
+        }
+       /*--------------------------------*/
   }/*=========*/
 
 
@@ -3484,7 +3534,7 @@ table.tariffs_table span{
       text-align: center;
    }
    .tariffs_announce span {
-      font-size: 15px;
+      font-size: 25px;
     }
    .tariffs_table_div {
     width: 300px;
@@ -3702,6 +3752,7 @@ table.tariffs_table span{
 #inputName, #inputPhone {
   font-size: 20px;
 }
+
 
 
 
