@@ -217,6 +217,16 @@ header ul li a:hover, footer ul li a:hover {
   width: 90%;
   max-width: 1426px;
 }
+
+
+.wrapper a,
+.wrapper a:active,
+.wrapper a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .wrapper2 {
     margin: 0 auto;
     width: 90%;
@@ -3250,6 +3260,9 @@ table.tariffs_table span{
 
     #license_fourth_row_block2 #license_button {
       margin-top: 11px;
+      margin-top: 11px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
 
      #license_third_row_announcement {
@@ -3537,6 +3550,9 @@ table.tariffs_table span{
   #license_button {
       width: 100% !important;
   }
+   #license_fourth_row_block2 #license_button {
+      width: auto !important;
+   }
 
 
   .socials_div_1,
