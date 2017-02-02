@@ -9,6 +9,7 @@
   <link href="css/slick-theme.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/nav-icon.css" rel="stylesheet">
+  <link href="css/jquery.modal.css" rel="stylesheet">
 </head>
 
 
@@ -130,18 +131,53 @@
 
 
 
-
+ <div id="ex1" style="display:none;">
+    <h1>От 950 рублей</h1> 
+     <div id="modal_1_row_1">
+     	<div id="modal_1_row_1_col_1">
+     		<img src="pics/modal_ring.png">
+     		<div id="modal_1_info_div_1">
+     			<span>МКАД</span>
+     			<span>подача 100 руб</span>
+     			<span>14 руб/км</span>
+     		</div>
+     		<div id="modal_1_info_div_2">
+     			<span>подача 100 руб</span>
+				<span>+10 руб/км</span>
+				<span>15 руб/км</span>
+				<span>15 руб/мин</span>
+     		</div>
+     	</div>
+     	<div id="modal_1_row_1_col_2">
+     		<img src="pics/modal_car.png">
+     	</div>
+     </div>
+     <div id="modal_1_row_2">
+     	<form>
+     		<form class="form-horizontal">
+				  <div class="form-group">
+				    <div class="modal_1_form_input">
+				      <label for="inputPhone" class="modal_1_form_label">Ваш телефон:</label>
+				      <input type="phone" class="form-control" id="inputPhone" placeholder="+7 (900) 000-00-00">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="modal_1_form_input submit">
+				      	<button type="submit" id="license_button" class="modal_1_submit_btn">Отправить заявку
+		                	</button>
+				    </div>
+				  </div>
+				</form>
+     	</form>
+     </div>
+    
+  </div>
 
 
 
 </main>
 
-  
-
-
-
- 
-   <footer>
+<footer>
 
   <!-- /footer container -->  
   <div id="footer_contacts_block">
@@ -212,6 +248,14 @@
   <script src="js/slick.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/jquery.modal.js"></script>
+
+  <script type="text/javascript">
+  	$(".class_variants.item").on('click', function(){
+  		$('#ex1').modal();
+  	});
+
+  </script>
 
 </body>
 </html>

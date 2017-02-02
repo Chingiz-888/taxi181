@@ -3781,6 +3781,10 @@ table.tariffs_table span{
         margin-bottom: 12px;
     }
 
+    #modal_1_row_1_col_2 {
+      display: none;
+    }
+
 
 }/* ==== */
 
@@ -3873,6 +3877,107 @@ table.tariffs_table span{
 #inputName, #inputPhone {
   font-size: 20px;
 }
+
+
+
+
+
+
+
+
+#modal_1_row_1  {
+  /*border: 1px red solid;*/
+}
+
+
+#modal_1_row_1_col_1 {
+  width: 200px;
+  position: relative;
+}
+#modal_1_row_1_col_2 {
+  position: absolute;
+  right: 28px;
+  top: 27px;
+  width: 520px;
+   /*border: 1px blue solid;*/
+}
+#modal_1_row_1_col_2 img{
+  width: 520px;
+}
+
+#modal_1_row_1_col_1,
+#modal_1_row_1_col_2 {
+  display: inline-block;
+}
+
+#modal_1_info_div_1 {
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  top: 68px;
+  left: 60px;
+  color: #2e2e2e;
+}
+#modal_1_info_div_1 span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#modal_1_info_div_1 span:nth-child(1){
+  font-family: 'OpenSansSemiBold';
+  font-size: 25px;
+}
+#modal_1_info_div_1 span:nth-child(2) {
+  margin-top: 20px;
+}
+#modal_1_info_div_1 span:nth-child(2),
+#modal_1_info_div_1 span:nth-child(3) {
+  font-family: 'OpenSansRegular';
+  font-size: 16px;
+}
+
+
+#modal_1_info_div_2{
+  position: absolute;
+  right: -189px;
+  top: 41px;
+}
+#modal_1_info_div_2 span {
+  display: block;
+  margin-bottom: 15px;
+  font-family: 'OpenSansSemiBold';
+  font-size: 16;
+}
+#modal_1_info_div_2 span:last-child{
+   margin-bottom: 0;
+}
+
+
+#modal_1_row_2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+#license_button.modal_1_submit_btn{
+  margin-top: 1px;
+}
+
+#license_button.modal_1_submit_btn:hover,
+#license_button.modal_1_submit_btn:active{
+  border: solid 1px #e7d31d;
+}
+.modal_1_form_input{
+  margin-top: 20px;
+}
+.modal_1_form_label {
+    margin-bottom: 11px;
+  }
+
+
+
+
 
 
 
