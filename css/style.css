@@ -263,7 +263,7 @@ header ul li a:hover, footer ul li a:hover {
   position: absolute;
   bottom: 20%;
   left: 14%;
-  z-index: 999;
+  z-index: 800;
 }
 .carousel .slick-dots li {
   display: block;
@@ -2771,6 +2771,7 @@ table.tariffs_table span{
   .license_line_inner1 {
     width: 40px !important;
     height: 40px !important;
+    min-width: 40px;
   }
   .license_line_inner1 span {
     left: 12px;
@@ -3216,7 +3217,7 @@ table.tariffs_table span{
      .license_line_wrapper {
         text-align: left;
      }
-    .license_line_inner1 span {
+    #license_third_row_block .license_line_inner1 span {
         left: 13px !important;
         top: 2px !important;
         font-size: 24px;
@@ -3536,6 +3537,7 @@ table.tariffs_table span{
   .license_line_inner1 {
       width: 33px !important;
       height: 33px !important;
+      min-width: 33px;
   }
   #about_div_2 .license_line_wrapper {
       margin: 0px !important;
@@ -3785,6 +3787,9 @@ table.tariffs_table span{
       display: none;
     }
 
+  #aboutpage_row_2_announce span:nth-child(1) {
+    font-size: 20px !important;
+  }
 
 }/* ==== */
 
